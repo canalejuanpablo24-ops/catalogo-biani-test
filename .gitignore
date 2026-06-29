@@ -1,0 +1,7 @@
+# Ignorar el archivo zip original de imagenes para no duplicar espacio en GitHub
+imagenes(Copy) (1).zip
+*.zip
+
+# Archivos temporales o del sistema
+.DS_Store
+Thumbs.db

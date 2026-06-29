@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo BIANI · Lista de Precios</title>
+<!-- Google Fonts (Outfit) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --az: #0f2751;
+  --az2: #1a3a7a;
+  --dr: #f0a500;
+  --dr2: #ffbe2e;
+  --g1: #f4f6fa;
+  --g2: #e8ecf4;
+  --g3: #b0bbd4;
+  --tx: #1a2744;
+  --rd: #e63946;
+  --vd: #2a9d5c;
+  --sh: 0 4px 14px rgba(15, 39, 81, 0.08);
+  --rr: 12px;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  background: var(--g1);
+  color: var(--tx);
+  min-height: 100vh;
+}
+/* LOADER OVERLAY */
+.loader-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.loader-overlay.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid var(--g2);
+  border-top-color: var(--az2);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.hd {
+  background: var(--az);
+  color: #fff;
+  padding: 0 20px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+.hl {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -.5px;
+  color: var(--dr);
+}
+.hl span {
+  color: #fff;
+  font-weight: 400;
+  font-size: 11px;
+  display: block;
+  letter-spacing: 0;
+}
+.sw {
+  flex: 1;
+  max-width: 480px;
+  position: relative;
+}
+.sw input {
+  width: 100%;
+  padding: 9px 16px 9px 38px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: .2s;
+  font-family: inherit;
+}
+.sw input::placeholder {
+  color: rgba(255,255,255,.5);
+}
+.sw input:focus {
+  background: rgba(255,255,255,.18);
+  border-color: var(--dr);
+}
+.si {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255,255,255,.5);
+  pointer-events: none;
+}
+.ha {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+  align-items: center;
+}
+.bu {
+  background: rgba(255,255,255,.12);
+  color: #fff;
+  border: 1.5px solid rgba(255,255,255,.2);
+  padding: 7px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: .2s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+.bu:hover {
+  background: rgba(255,255,255,.22);
+}
+.cb {
+  background: var(--dr);
+  color: var(--az);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: .2s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+.cb:hover {
+  background: var(--dr2);
+  transform: translateY(-1px);
+}
+.cc {
+  background: var(--az);
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 800;
+}
+/* NAVEGACIÓN 2 NIVELES */
+.nav1 {
+  background: var(--az2);
+  border-bottom: 2px solid rgba(255,255,255,.08);
+  padding: 0 16px;
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.nav1::-webkit-scrollbar {
+  display: none;
+}
+.g1tab {
+  padding: 11px 18px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,.6);
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: .15s;
+  flex-shrink: 0;
+}
+.g1tab:hover {
+  color: #fff;
+}
+.g1tab.active {
+  color: #fff;
+  border-bottom-color: var(--dr);
+}
+.nav2 {
+  background: #fff;
+  border-bottom: 1.5px solid var(--g2);
+  padding: 0 16px;
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  min-height: 44px;
+}
+.nav2::-webkit-scrollbar {
+  display: none;
+}
+.g2tab {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--g3);
+  border-bottom: 2.5px solid transparent;
+  margin-bottom: -1.5px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: .15s;
+  flex-shrink: 0;
+}
+.g2tab:hover {
+  color: var(--tx);
+}
+.g2tab.active {
+  color: var(--az);
+  border-bottom-color: var(--dr);
+  font-weight: 700;
+}
+.g2tab .ico {
+  font-size: 15px;
+}
+.g2tab .cnt {
+  background: var(--g2);
+  color: var(--g3);
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+.g2tab.active .cnt {
+  background: var(--az);
+  color: #fff;
+}
+.lay {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 18px 16px;
+}
+.tb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.ctitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--az);
+}
+.csub {
+  font-size: 13px;
+  color: var(--g3);
+  margin-top: 2px;
+}
+.stog {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  padding: 7px 14px;
+  border-radius: 8px;
+  box-shadow: var(--sh);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx);
+  border: 2px solid transparent;
+  transition: .2s;
+  user-select: none;
+}
+.stog.active {
+  border-color: var(--vd);
+  color: var(--vd);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+/* CARD CONFIGURATION WITH IMAGES */
+.card {
+  background: #fff;
+  border-radius: var(--rr);
+  box-shadow: var(--sh);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(15, 39, 81, 0.12);
+  border-color: var(--az2);
+}
+.card.inc {
+  border-color: var(--dr);
+}
+.stbdg {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  background: var(--vd);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  z-index: 2;
+}
+.card-img-container {
+  width: 100%;
+  height: 130px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  border: 1px solid var(--g2);
+}
+.card-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+.card:hover .card-img {
+  transform: scale(1.06);
+}
+.card-img-placeholder {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  color: var(--az);
+  user-select: none;
+}
+.pc {
+  font-size: 10px;
+  color: var(--g3);
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+.pn {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--tx);
+  flex: 1;
+}
+.pp {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--az2);
+  letter-spacing: -.5px;
+  margin-top: 2px;
+}
+.pp span {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--g3);
+}
+.qc {
+  display: flex;
+  align-items: center;
+  background: var(--g1);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1.5px solid var(--g2);
+}
+.qb {
+  background: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--az);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .15s;
+}
+.qb:hover {
+  background: var(--g2);
+}
+.qd {
+  flex: 1;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--tx);
+}
+.qc.hq {
+  border-color: var(--dr);
+  background: #fff9ec;
+}
+.qc.hq .qd {
+  color: var(--az2);
+}
+.empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--g3);
+}
+.empty .ei {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+/* CART */
+.cov {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 200;
+}
+.cov.open {
+  display: block;
+}
+.cp {
+  position: fixed;
+  right: -440px;
+  top: 0;
+  bottom: 0;
+  width: 420px;
+  max-width: 100vw;
+  background: #fff;
+  box-shadow: -4px 0 24px rgba(0,0,0,0.2);
+  z-index: 201;
+  display: flex;
+  flex-direction: column;
+  transition: right .3s cubic-bezier(.4, 0, .2, 1);
+}
+.cp.open {
+  right: 0;
+}
+.cph {
+  background: var(--az);
+  color: #fff;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cpt {
+  font-size: 17px;
+  font-weight: 700;
+  flex: 1;
+}
+.ccl {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ci {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ce {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--g3);
+  gap: 12px;
+  padding: 40px 0;
+}
+.ce .ei {
+  font-size: 48px;
+}
+.cit {
+  background: var(--g1);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.cn {
+  flex: 1;
+  min-width: 0;
+}
+.cna {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+.cco {
+  font-size: 11px;
+  color: var(--g3);
+}
+.cr {
+  text-align: right;
+  flex-shrink: 0;
+}
+.cq {
+  font-size: 13px;
+  color: var(--g3);
+  margin-bottom: 2px;
+}
+.cs {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--az2);
+}
+.crm {
+  background: none;
+  border: none;
+  color: var(--g3);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2px;
+  transition: .15s;
+  font-family: inherit;
+}
+.crm:hover {
+  color: var(--rd);
+}
+.cf {
+  padding: 16px 20px;
+  border-top: 2px solid var(--g2);
+}
+.ctr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.ctl {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--g3);
+}
+.cta {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--az);
+}
+.wa {
+  width: 100%;
+  background: #25d366;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: .2s;
+  font-family: inherit;
+}
+.wa:hover {
+  background: #1ebe5a;
+  transform: translateY(-1px);
+}
+.clr {
+  width: 100%;
+  background: none;
+  border: none;
+  color: var(--g3);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  transition: .15s;
+  font-family: inherit;
+}
+.clr:hover {
+  color: var(--rd);
+  background: #ffeaea;
+}
+/* MODAL */
+.mo {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 300;
+  align-items: center;
+  justify-content: center;
+}
+.mo.open {
+  display: flex;
+}
+.mb {
+  background: #fff;
+  border-radius: 14px;
+  width: 480px;
+  max-width: calc(100vw - 32px);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+}
+.mh {
+  background: var(--az);
+  color: #fff;
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mt {
+  font-size: 17px;
+  font-weight: 700;
+  flex: 1;
+}
+.mc {
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mbd {
+  padding: 22px;
+  overflow-y: auto;
+  flex: 1;
+}
+.md {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.uz {
+  border: 2.5px dashed var(--g3);
+  border-radius: 10px;
+  padding: 24px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
+  position: relative;
+}
+.uz:hover, .uz.drag {
+  border-color: var(--az2);
+  background: #f0f4ff;
+}
+.uz input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.ui {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.ut {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx);
+}
+.us {
+  font-size: 11px;
+  color: var(--g3);
+  margin-top: 4px;
+}
+.up {
+  display: none;
+  margin-top: 16px;
+}
+.up.vis {
+  display: block;
+}
+.pb2 {
+  background: var(--g2);
+  border-radius: 8px;
+  height: 8px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+.pb {
+  height: 100%;
+  background: var(--az2);
+  border-radius: 8px;
+  width: 0%;
+  transition: width .3s;
+}
+.pt {
+  font-size: 13px;
+  color: var(--g3);
+}
+.cl {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 12px;
+  border: 1.5px solid var(--g2);
+  border-radius: 8px;
+}
+.chi {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  font-size: 12px;
+  border-bottom: 1px solid var(--g2);
+}
+.chi:last-child {
+  border-bottom: none;
+}
+.bdg {
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.bdg.up { background: #ffe8e8; color: var(--rd); }
+.bdg.dn { background: #e8ffe8; color: var(--vd); }
+.bdg.nw { background: #e8f0ff; color: var(--az2); }
+
+.mf {
+  padding: 14px 22px;
+  border-top: 1.5px solid var(--g2);
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.bs {
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: 1.5px solid var(--g2);
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--tx);
+  font-weight: 500;
+  transition: .15s;
+  font-family: inherit;
+}
+.bs:hover {
+  background: var(--g1);
+}
+.bp {
+  padding: 9px 20px;
+  border-radius: 8px;
+  border: none;
+  background: var(--az);
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  transition: .2s;
+  font-family: inherit;
+}
+.bp:hover {
+  background: var(--az2);
+}
+.bp:disabled {
+  opacity: .4;
+  cursor: default;
+}
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--az);
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  z-index: 500;
+  transition: transform .3s;
+  white-space: nowrap;
+}
+.toast.show {
+  transform: translateX(-50%) translateY(0);
+}
+.toast.ok {
+  background: var(--vd);
+}
+.toast.warn {
+  background: var(--dr);
+}
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+    gap: 8px;
+  }
+  .card-img-container {
+    height: 110px;
+  }
+  .hl span, .bu span {
+    display: none;
+  }
+  .lay {
+    padding: 12px 10px;
+  }
+  .g1tab {
+    padding: 9px 13px;
+    font-size: 12px;
+  }
+  .g2tab {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+</style>
+</head>
+<body>
+<!-- LOADER SPINNER -->
+<div class="loader-overlay" id="loader">
+  <div class="spinner"></div>
+  <div style="margin-top: 15px; font-weight: 600; color: var(--az2); font-size: 15px;">Sincronizando catálogo...</div>
+</div>
+
+<header class="hd">
+  <div class="hl">BIANI<span>Distribuidora · Santa Rosa</span></div>
+  <div class="sw"><span class="si">🔍</span><input type="text" id="sinp" placeholder="Buscar producto o código..."></div>
+  <div class="ha">
+    <button class="bu" onclick="openMod()">⚙️ <span>Configuración</span></button>
+    <button class="cb" onclick="togCart()">🛒 Pedido <span class="cc" id="ccnt">0</span></button>
+  </div>
+</header>
+<div class="nav1" id="nav1"></div>
+<div class="nav2" id="nav2"></div>
+<div class="lay">
+  <div class="tb">
+    <div><div class="ctitle" id="ctitle">Catálogo BIANI</div><div class="csub"><span id="pcnt">0</span> productos cargados</div></div>
+    <label class="stog" id="stog"><input type="checkbox" id="stChk" onchange="applyF()"> 🌾 Solo SIN TACC</label>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
+<div class="cov" id="cov" onclick="togCart()"></div>
+<div class="cp" id="cp">
+  <div class="cph"><span>🛒</span><div class="cpt">Tu pedido</div><button class="ccl" onclick="togCart()">✕</button></div>
+  <div class="ci" id="ci"></div>
+  <div class="cf">
+    <div class="ctr"><span class="ctl">Total del pedido</span><span class="cta" id="cta">$0</span></div>
+    <button class="wa" onclick="sendWA()">
+      <svg width="22" height="22" viewBox="0 0 32 32" fill="currentColor"><path d="M16 2C8.3 2 2 8.3 2 16c0 2.5.7 4.9 1.9 7L2 30l7.2-1.9C11.1 29.3 13.5 30 16 30c7.7 0 14-6.3 14-14S23.7 2 16 2zm0 25.3c-2.3 0-4.5-.6-6.4-1.8l-.5-.3-4.3 1.1 1.1-4.2-.3-.5C4.3 20.6 3.7 18.4 3.7 16c0-6.8 5.5-12.3 12.3-12.3S28.3 9.2 28.3 16 22.8 27.3 16 27.3zm6.7-9.2c-.4-.2-2.2-1.1-2.5-1.2-.4-.1-.6-.2-.9.2-.3.4-.9 1.2-1.1 1.4-.2.2-.4.3-.8.1-.4-.2-1.5-.6-2.9-1.8-1.1-1-1.8-2.2-2-2.6-.2-.4 0-.6.2-.8.2-.2.4-.4.5-.6.2-.2.2-.4.4-.6.1-.2.1-.4 0-.6-.1-.2-.9-2.2-1.2-3-.3-.8-.6-.7-.9-.7h-.7c-.3 0-.7.1-1 .4-.4.4-1.3 1.2-1.3 3s1.3 3.5 1.5 3.7c.2.2 2.5 3.9 6.1 5.4.9.4 1.5.6 2 .7.9.2 1.7.2 2.3.1.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8z"/></svg>
+      Enviar pedido por WhatsApp
+    </button>
+    <button class="clr" onclick="clrCart()">🗑 Vaciar pedido</button>
+  </div>
+</div>
+<!-- SETTINGS AND PDF UPDATE MODAL -->
+<div class="mo" id="mo" onclick="closeBg(event)">
+  <div class="mb">
+    <div class="mh"><span>⚙️</span><div class="mt">Configuración y Precios</div><button class="mc" onclick="closeMod()">✕</button></div>
+    <div class="mbd">
+      <!-- GOOGLE SHEETS INTEGRATION -->
+      <h3 style="font-size: 15px; color: var(--az2); margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">🔗 Google Sheets Database</h3>
+      <p class="md">Ingresá el ID de tu Google Sheet compartida públicamente. El catálogo se sincronizará automáticamente al instante.</p>
+      <div style="display: flex; gap: 8px; margin-bottom: 6px;">
+        <input type="text" id="sheetIdInp" placeholder="ID de la planilla Google Sheets..." style="flex: 1; padding: 10px; border-radius: 8px; border: 1.5px solid var(--g3); font-size: 13px; font-family: inherit; outline: none;">
+        <button class="bp" onclick="saveSheetId()" style="white-space: nowrap; padding: 10px 16px; font-size: 13px;">Sincronizar</button>
+      </div>
+      <div style="font-size: 11px; color: #777; margin-bottom: 20px;">
+        ¿Cómo obtenerlo? Compartí la hoja como <b>"Cualquier persona con el enlace (Lector)"</b> y copia la clave entre <code>/d/</code> y <code>/edit</code>.
+      </div>
+      
+      <hr style="border: 0; border-top: 1.5px solid var(--g2); margin: 20px 0;">
+
+      <!-- LOCAL PDF UPDATER -->
+      <h3 style="font-size: 15px; color: var(--az2); margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">📄 Actualizar precios por PDF</h3>
+      <p class="md">Subí la lista en PDF. El sistema detecta los cambios y actualiza el catálogo de la sesión en el navegador.</p>
+      <div class="uz" id="uz">
+        <input type="file" accept="application/pdf" id="pdfIn" onchange="handlePDF(this.files[0])">
+        <div class="ui">📎</div>
+        <div class="ut">Arrastrá o hacé clic para subir el PDF</div>
+        <div class="us">Lista de precios en formato PDF</div>
+      </div>
+      <div class="up" id="up">
+        <div class="pt" id="pt">Procesando...</div>
+        <div class="pb2"><div class="pb" id="pb"></div></div>
+        <div class="cl" id="cl"></div>
+      </div>
+    </div>
+    <div class="mf">
+      <button class="bs" onclick="closeMod()">Cancelar</button>
+      <button class="bp" id="appBtn" disabled onclick="appCh()">Aplicar cambios PDF</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// MAPPINGS AND CONFIGURATION
+const CI={"Alfajores": "🍫", "Chocolates y Bombones": "🍬", "Caramelos y Chicles": "🍭", "Chupetines, Gomitas y Regaliz": "🐛", "Galletitas Dulces": "🍪", "Galletitas Saladas, Snacks y Budines": "🥨", "Repostería y Postres": "🎂", "Yerba Mate": "🧉", "Café": "☕", "Té, Malta e Infusiones": "🍵", "Jugos y Bebidas": "🧃", "Vinos y Espirituosas": "🍷", "Aceites y Aderezos": "🫙", "Condimentos y Especias": "🌿", "Fideos, Arroz y Legumbres": "🍝", "Harinas y Repostería": "🌾", "Conservas y Verduras": "🥫", "Edulcorantes": "🍯", "Perfumes y Colonias": "💎", "Desodorantes": "💨", "Shampoo y Cuidado del Cabello": "🧖", "Higiene Bucal": "🪥", "Cremas e Higiene Corporal": "🧴", "Afeitado": "🪒", "Preservativos y Adultos": "❤️", "Higiene Femenina e Infantil": "🌸", "Papel Higiénico y Descartables": "🧻", "Detergentes y Lavarropas": "🫧", "Limpieza del Hogar": "🧹", "Pilas": "🔋", "Linternas y Lámparas": "💡", "Velas, Fósforos y Encendedores": "🕯️", "Ferretería y Varios": "🔧"};
+const GR={"🍭 Golosinas": ["Alfajores", "Chocolates y Bombones", "Caramelos y Chicles", "Chupetines, Gomitas y Regaliz", "Galletitas Dulces", "Galletitas Saladas, Snacks y Budines", "Repostería y Postres"], "🛒 Almacén": ["Yerba Mate", "Café", "Té, Malta e Infusiones", "Jugos y Bebidas", "Vinos y Espirituosas", "Aceites y Aderezos", "Condimentos y Especias", "Fideos, Arroz y Legumbres", "Harinas y Repostería", "Conservas y Verduras", "Edulcorantes"], "🧴 Perfumería": ["Perfumes y Colonias", "Desodorantes", "Shampoo y Cuidado del Cabello", "Higiene Bucal", "Cremas e Higiene Corporal", "Afeitado", "Preservativos y Adultos"], "🏠 Hogar y Limpieza": ["Higiene Femenina e Infantil", "Papel Higiénico y Descartables", "Detergentes y Lavarropas", "Limpieza del Hogar"], "⚡ Electricidad": ["Pilas", "Linternas y Lámparas"], "🔧 Varios": ["Velas, Fósforos y Encendedores", "Ferretería y Varios"]};
+
+// CONFIGURATION VARIABLES
+const DEFAULT_SHEET_ID = ""; // ← Podés ingresar tu ID por defecto de Google Sheets acá (ej: "1A2B3C4D...")
+const WA = '5492954000000'; // ← Reemplazar por WhatsApp de BIANI
+
+let prods = [];
+let filt = [], curG = '', curC = '', q = '', st = false, pending = [], pdfProds = [];
+
+function showLoading(show) {
+  const loader = document.getElementById('loader');
+  if (show) loader.classList.remove('hidden');
+  else loader.classList.add('hidden');
+}
+
+// RFC 4180 COMPLIANT CSV PARSER
+function parseCSV(text) {
+  const lines = [];
+  let row = [""];
+  let inQuotes = false;
+  
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    const next = text[i+1];
+    
+    if (c === '"') {
+      if (inQuotes && next === '"') {
+        row[row.length - 1] += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (c === ',' && !inQuotes) {
+      row.push("");
+    } else if ((c === '\r' || c === '\n') && !inQuotes) {
+      if (c === '\r' && next === '\n') {
+        i++;
+      }
+      lines.push(row);
+      row = [""];
+    } else {
+      row[row.length - 1] += c;
+    }
+  }
+  if (row.length > 1 || row[0] !== "") {
+    lines.push(row);
+  }
+  return lines;
+}
+
+// DATA LOADER PIPELINE
+async function loadDatabase() {
+  showLoading(true);
+  let sheetId = localStorage.getItem('biani_sheet_id') || DEFAULT_SHEET_ID;
+  document.getElementById('sheetIdInp').value = sheetId;
+  
+  // Load category and image mappings first
+  try {
+    const [catRes, imgRes] = await Promise.all([
+      fetch('code_to_category.json').then(r => r.json()).catch(() => ({})),
+      fetch('code_to_image.json').then(r => r.json()).catch(() => ({}))
+    ]);
+    window.codeToCat = catRes;
+    window.codeToImg = imgRes;
+  } catch (e) {
+    console.error("Error loading JSON mappings:", e);
+    window.codeToCat = {};
+    window.codeToImg = {};
+  }
+
+  let dataLoaded = false;
+  
+  if (sheetId) {
+    try {
+      const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv`;
+      const response = await fetch(csvUrl);
+      if (!response.ok) throw new Error("Fetch failed with status " + response.status);
+      const csvText = await response.text();
+      const csvRows = parseCSV(csvText);
+      
+      if (csvRows.length > 1) {
+        processCSVRows(csvRows);
+        dataLoaded = true;
+        toast("✅ Sincronizado desde Google Sheets", "ok");
+      }
+    } catch (e) {
+      console.error("Failed to load from Google Sheets:", e);
+      toast("⚠️ Error cargando Google Sheets. Usando catálogo local.", "warn");
+    }
+  }
+
+  if (!dataLoaded) {
+    // Load local fallback data
+    try {
+      const fallbackRes = await fetch('products_fallback.json');
+      if (fallbackRes.ok) {
+        const fallbackProds = await fallbackRes.json();
+        prods = fallbackProds.map(p => ({...p, qty: 0}));
+        dataLoaded = true;
+      }
+    } catch (e) {
+      console.error("Failed to load local fallback:", e);
+    }
+  }
+  
+  if (!dataLoaded) {
+    prods = [];
+    toast("❌ No se pudo cargar ningún producto.", "warn");
+  }
+
+  showLoading(false);
+  buildNav();
+  applyF();
+  updCart();
+}
+
+function processCSVRows(rows) {
+  // Normalize header strings
+  const headers = rows[0].map(h => h.toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g,''));
+  
+  let codeIdx = headers.findIndex(h => h.includes('cod') || h.includes('id'));
+  let nameIdx = headers.findIndex(h => h.includes('art') || h.includes('nom') || h.includes('prod'));
+  let catIdx = headers.findIndex(h => h.includes('cat'));
+  let priceIdx = headers.findIndex(h => h.includes('prec') || h.includes('cost') || h.includes('val'));
+  
+  // Fallbacks by column index if headers are missing
+  if (codeIdx === -1) codeIdx = 0;
+  if (nameIdx === -1) nameIdx = 1;
+  if (catIdx === -1) catIdx = 2;
+  if (priceIdx === -1) priceIdx = 3;
+  
+  prods = [];
+  for (let i = 1; i < rows.length; i++) {
+    const r = rows[i];
+    if (r.length <= Math.max(codeIdx, nameIdx, priceIdx)) continue;
+    
+    const code = r[codeIdx] ? r[codeIdx].trim() : "";
+    const name = r[nameIdx] ? r[nameIdx].trim() : "";
+    if (!code || !name) continue;
+    
+    let cat = r[catIdx] ? r[catIdx].trim() : "";
+    if (!cat || cat.toLowerCase() === "none" || cat.toLowerCase() === "null") {
+      cat = window.codeToCat[code] || "Ferretería y Varios";
+    }
+    
+    // Parse Argentine/Spanish formatting: 11.424,78 -> 11424.78
+    let rawPrice = r[priceIdx] || "0";
+    rawPrice = rawPrice.replace('$','').replace(/\s/g,'');
+    if (rawPrice.includes('.') && rawPrice.includes(',')) {
+      rawPrice = rawPrice.replace(/\./g, '').replace(',', '.');
+    } else if (rawPrice.includes(',')) {
+      rawPrice = rawPrice.replace(',', '.');
+    }
+    const price = parseFloat(rawPrice) || 0.0;
+    
+    const image = window.codeToImg[code] || "";
+    
+    prods.push({
+      code: code,
+      name: name,
+      category: cat,
+      price: price,
+      image: image,
+      qty: 0
+    });
+  }
+}
+
+// GOOGLE SHEETS ID CONFIGURATION SAVING
+function saveSheetId() {
+  const input = document.getElementById('sheetIdInp');
+  const val = input.value.trim();
+  
+  // Extract spreadsheet ID if they paste the full URL
+  let sheetId = val;
+  const match = val.match(/\/d\/([a-zA-Z0-9-_]+)/);
+  if (match) {
+    sheetId = match[1];
+  }
+  
+  localStorage.setItem('biani_sheet_id', sheetId);
+  closeMod();
+  loadDatabase();
+}
+
+function getCounts() {
+  const c = {};
+  prods.forEach(p => { c[p.category] = (c[p.category] || 0) + 1 });
+  return c;
+}
+
+function buildNav() {
+  const n1 = document.getElementById('nav1');
+  const counts = getCounts();
+  n1.innerHTML = '';
+  
+  const allBtn = document.createElement('div');
+  allBtn.className = 'g1tab active';
+  allBtn.dataset.g = '';
+  const tot = prods.length;
+  allBtn.innerHTML = `🏪 Todos <small style="margin-left:4px;font-size:11px;opacity:.7">${tot}</small>`;
+  allBtn.onclick = function() { selG(this, '') };
+  n1.appendChild(allBtn);
+  
+  for (const [gname, gcats] of Object.entries(GR)) {
+    const gtot = gcats.reduce((s, c) => s + (counts[c] || 0), 0);
+    const el = document.createElement('div');
+    el.className = 'g1tab';
+    el.dataset.g = gname;
+    el.innerHTML = `${gname} <small style="margin-left:4px;font-size:11px;opacity:.7">${gtot}</small>`;
+    el.onclick = function() { selG(this, gname) };
+    n1.appendChild(el);
+  }
+  renderNav2(counts, '');
+}
+
+function renderNav2(counts, g) {
+  const n2 = document.getElementById('nav2');
+  n2.innerHTML = '';
+  let cats = [];
+  if (!g) {
+    cats = Object.keys(CI);
+  } else {
+    cats = GR[g] || [];
+  }
+  
+  const allBtn = document.createElement('div');
+  allBtn.className = 'g2tab active';
+  allBtn.dataset.c = '';
+  allBtn.innerHTML = `Todo <span class="cnt">${cats.reduce((s, c) => s + (counts[c] || 0), 0)}</span>`;
+  allBtn.onclick = function() { selC(this, '') };
+  n2.appendChild(allBtn);
+  
+  cats.forEach(cat => {
+    const el = document.createElement('div');
+    el.className = 'g2tab';
+    el.dataset.c = cat;
+    el.innerHTML = `<span class="ico">${CI[cat] || ''}</span>${cat}<span class="cnt">${counts[cat] || 0}</span>`;
+    el.onclick = function() { selC(this, cat) };
+    n2.appendChild(el);
+  });
+}
+
+function selG(el, g) {
+  document.querySelectorAll('.g1tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  curG = g; curC = '';
+  renderNav2(getCounts(), g);
+  applyF();
+}
+
+function selC(el, c) {
+  document.querySelectorAll('.g2tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  curC = c; applyF();
+  document.getElementById('ctitle').textContent = c || 'Catálogo BIANI';
+}
+
+function applyF() {
+  st = document.getElementById('stChk').checked;
+  document.getElementById('stog').classList.toggle('active', st);
+  let r = prods;
+  if (curC) r = r.filter(p => p.category === curC);
+  else if (curG) r = r.filter(p => GR[curG] && GR[curG].includes(p.category));
+  if (st) r = r.filter(p => p.name.includes('SIN TACC') || p.name.includes('SIN TAC'));
+  if (q) {
+    const nq = q.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    r = r.filter(p => {
+      const n = p.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      return n.includes(nq) || p.code.includes(nq);
+    });
+  }
+  filt = r;
+  renderProds();
+}
+
+function renderProds() {
+  const g = document.getElementById('grid');
+  g.innerHTML = '';
+  document.getElementById('pcnt').textContent = filt.length.toLocaleString('es-AR');
+  if (!filt.length) {
+    g.innerHTML = '<div class="empty"><div class="ei">🔍</div><p>No se encontraron productos</p></div>';
+    return;
+  }
+  let idx = 0;
+  function batch() {
+    const f = document.createDocumentFragment();
+    const end = Math.min(idx + 60, filt.length);
+    for (let i = idx; i < end; i++) f.appendChild(mkCard(filt[i]));
+    g.appendChild(f);
+    idx = end;
+    if (idx < filt.length) requestAnimationFrame(batch);
+  }
+  batch();
+}
+
+function cleanN(n) {
+  return n.replace(/SIN TACC/g, '').replace(/SIN TAC/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// RENDERS CARD WITH IMAGES & FALLBACK PLACEHOLDERS
+function mkCard(p) {
+  const isST = p.name.includes('SIN TACC') || p.name.includes('SIN TAC');
+  const hq = p.qty > 0;
+  const pi = Math.floor(p.price);
+  const pd = String(Math.round((p.price % 1) * 100)).padStart(2, '0');
+  const d = document.createElement('div');
+  d.className = 'card' + (hq ? ' inc' : ''); d.id = 'card-' + p.code;
+  
+  let imgHTML = '';
+  if (p.image) {
+    imgHTML = `<div class="card-img-container"><img src="${p.image}" class="card-img" alt="${cleanN(p.name)}" loading="lazy"></div>`;
+  } else {
+    imgHTML = `<div class="card-img-container"><div class="card-img-placeholder">${CI[p.category] || '📦'}</div></div>`;
+  }
+
+  d.innerHTML = `${isST ? '<span class="stbdg">SIN TACC</span>' : ''}
+${imgHTML}
+<div class="pc">#${p.code}</div>
+<div class="pn">${cleanN(p.name)}</div>
+<div class="pp">$${pi.toLocaleString('es-AR')}<span>,${pd}</span></div>
+<div class="qc${hq ? ' hq' : ''}" id="qc-${p.code}">
+  <button class="qb" onclick="chQ('${p.code}',-1)">−</button>
+  <span class="qd">${p.qty}</span>
+  <button class="qb" onclick="chQ('${p.code}',1)">+</button>
+</div>`;
+  return d;
+}
+
+function chQ(code, d) {
+  const p = prods.find(x => x.code === code); if (!p) return;
+  p.qty = Math.max(0, p.qty + d);
+  const qc = document.getElementById('qc-' + code), cd = document.getElementById('card-' + code);
+  if (qc) { qc.querySelector('.qd').textContent = p.qty; qc.classList.toggle('hq', p.qty > 0) }
+  if (cd) cd.classList.toggle('inc', p.qty > 0);
+  updCart();
+  if (p.qty > 0 && d > 0) toast(cleanN(p.name).substring(0, 34) + '...');
+}
+
+function getCart() { return prods.filter(p => p.qty > 0) }
+
+function updCart() {
+  const items = getCart();
+  const tot = items.reduce((s, p) => s + p.qty * p.price, 0);
+  document.getElementById('ccnt').textContent = items.reduce((s, p) => s + p.qty, 0);
+  document.getElementById('cta').textContent = '$' + tot.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function togCart() {
+  const panel = document.getElementById('cp'), ov = document.getElementById('cov');
+  if (!panel.classList.contains('open')) rendCart();
+  panel.classList.toggle('open'); ov.classList.toggle('open');
+}
+
+function rendCart() {
+  const items = getCart(), c = document.getElementById('ci');
+  if (!items.length) { c.innerHTML = '<div class="ce"><span class="ei">🛒</span><p>El pedido está vacío</p></div>'; return }
+  c.innerHTML = items.map(p => {
+    const sub = (p.qty * p.price).toLocaleString('es-AR', { minimumFractionDigits: 2 });
+    return `<div class="cit"><div class="cn"><div class="cna">${cleanN(p.name)}</div><div class="cco">#${p.code} · ${p.category}</div></div><div class="cr"><div class="cq">x${p.qty} · $${p.price.toLocaleString('es-AR', { minimumFractionDigits: 2 })}</div><div class="cs">$${sub}</div></div><button class="crm" onclick="remIt('${p.code}')">✕</button></div>`;
+  }).join('');
+}
+
+function remIt(code) {
+  const p = prods.find(x => x.code === code);
+  if (p) {
+    p.qty = 0; const qc = document.getElementById('qc-' + code), cd = document.getElementById('card-' + code);
+    if (qc) { qc.querySelector('.qd').textContent = 0; qc.classList.remove('hq') }
+    if (cd) cd.classList.remove('inc');
+    updCart(); rendCart();
+  }
+}
+
+function clrCart() {
+  prods.forEach(p => p.qty = 0);
+  document.querySelectorAll('.qc').forEach(e => { e.querySelector('.qd').textContent = 0; e.classList.remove('hq') });
+  document.querySelectorAll('.card').forEach(c => c.classList.remove('inc'));
+  updCart(); rendCart(); toast('Pedido vaciado');
+}
+
+function sendWA() {
+  const items = getCart(); if (!items.length) { toast('El pedido está vacío'); return }
+  const tot = items.reduce((s, p) => s + p.qty * p.price, 0);
+  let msg = '🛒 *PEDIDO BIANI*\n━━━━━━━━━━━━━━━━\n';
+  items.forEach(p => {
+    const sub = (p.qty * p.price).toLocaleString('es-AR', { minimumFractionDigits: 2 });
+    msg += `▪ *${cleanN(p.name)}*\n  Cód. ${p.code} · Cant: ${p.qty} · $${sub}\n`;
+  });
+  msg += `━━━━━━━━━━━━━━━━\n💰 *TOTAL: $${tot.toLocaleString('es-AR', { minimumFractionDigits: 2 })}*\n📅 ${new Date().toLocaleDateString('es-AR')}`;
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(msg), '_blank');
+}
+
+function openMod() {
+  document.getElementById('mo').classList.add('open');
+  document.getElementById('up').classList.remove('vis');
+  document.getElementById('pdfIn').value = '';
+  document.getElementById('cl').innerHTML = '';
+  document.getElementById('appBtn').disabled = true;
+  pending = []; pdfProds = [];
+}
+function closeMod() { document.getElementById('mo').classList.remove('open') }
+function closeBg(e) { if (e.target === e.currentTarget) closeMod() }
+
+// PDF PROCESSING LOGIC (IN-MEMORY SESSION OVERRIDE)
+async function handlePDF(file) {
+  if (!file) return;
+  document.getElementById('up').classList.add('vis');
+  setP(10); setPt('Cargando PDF...');
+  try {
+    const ab = await file.arrayBuffer(); setP(20);
+    if (!window.pdfjsLib) {
+      await ldSc('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    }
+    setPt('Analizando páginas...');
+    const pdf = await pdfjsLib.getDocument(ab).promise; setP(30);
+    let txt = '';
+    for (let i = 1; i <= pdf.numPages; i++) {
+      const page = await pdf.getPage(i);
+      const tc = await page.getTextContent();
+      const items = tc.items.map(it => ({ t: it.str.trim(), x: Math.round(it.transform[4]), y: Math.round(it.transform[5]) })).filter(it => it.t);
+      const rows = {};
+      items.forEach(it => { if (!rows[it.y]) rows[it.y] = []; rows[it.y].push(it) });
+      Object.keys(rows).sort((a, b) => b - a).forEach(y => { txt += rows[y].sort((a, b) => a.x - b.x).map(i => i.t).join(' ') + '\n' });
+      setP(30 + (i / pdf.numPages) * 45);
+    }
+    setPt('Detectando cambios...'); setP(80);
+    pdfProds = parseTxt(txt);
+    pending = detectCh(pdfProds);
+    setP(100); showCh(pending, pdfProds.length);
+    document.getElementById('appBtn').disabled = pending.length === 0;
+  } catch (e) { setPt('❌ Error: ' + e.message); console.error(e) }
+}
+
+function ldSc(src) { return new Promise((r, j) => { const s = document.createElement('script'); s.src = src; s.onload = r; s.onerror = j; document.head.appendChild(s) }) }
+function parseTxt(text) {
+  const res = [];
+  text.split('\n').forEach(line => {
+    line = line.trim();
+    const m = line.match(/^(\d{2,7})\s+(.+?)\s+([\d.]+,\d{2})$/);
+    if (m) res.push({ code: m[1], name: m[2].trim(), price: parseFloat(m[3].replace('.', '').replace(',', '.')) });
+  });
+  return res;
+}
+function detectCh(np) {
+  const cm = {}; prods.forEach(p => cm[p.code] = p);
+  return np.map(n => {
+    const c = cm[n.code];
+    if (!c) return { type: 'new', code: n.code, name: n.name, op: null, np: n.price };
+    if (Math.abs(c.price - n.price) > 0.01) return { type: c.price < n.price ? 'up' : 'dn', code: n.code, name: n.name, op: c.price, np: n.price };
+    return null;
+  }).filter(Boolean);
+}
+function showCh(ch, tot) {
+  const ups = ch.filter(c => c.type === 'up').length, dns = ch.filter(c => c.type === 'dn').length, nws = ch.filter(c => c.type === 'new').length;
+  setPt(`✅ PDF analizado · <b>${ch.length} cambios</b> de ${tot} productos (↑${ups} subieron · ↓${dns} bajaron · +${nws} nuevos)`);
+  const l = document.getElementById('cl');
+  if (!ch.length) { l.innerHTML = '<div class="chi">✅ Sin cambios — precios actualizados.</div>'; return }
+  l.innerHTML = ch.slice(0, 60).map(c => {
+    const b = c.type === 'up' ? '<span class="bdg up">↑ SUBIÓ</span>' : c.type === 'dn' ? '<span class="bdg dn">↓ BAJÓ</span>' : '<span class="bdg nw">+ NUEVO</span>';
+    const op = c.op ? '$' + c.op.toLocaleString('es-AR', { minimumFractionDigits: 2 }) : '-';
+    const np = '$' + c.np.toLocaleString('es-AR', { minimumFractionDigits: 2 });
+    return `<div class="chi">${b}<span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${c.name.substring(0, 42)}</span><span style="font-size:11px;white-space:nowrap">${op}→${np}</span></div>`;
+  }).join('') + (ch.length > 60 ? `<div class="chi" style="color:#aaa">...y ${ch.length - 60} más</div>` : '');
+}
+function appCh() {
+  const cm = {}; prods.forEach((p, i) => cm[p.code] = i);
+  pending.forEach(c => {
+    if (c.type === 'new') {
+      const cat = window.codeToCat[c.code] || 'Ferretería y Varios';
+      const img = window.codeToImg[c.code] || '';
+      prods.push({ code: c.code, name: c.name, price: c.np, category: cat, image: img, qty: 0 });
+    } else {
+      const i = cm[c.code];
+      if (i !== undefined) prods[i].price = c.np;
+    }
+  });
+  buildNav(); applyF(); closeMod(); toast('✅ ' + pending.length + ' precios actualizados', 'ok'); pending = []; pdfProds = [];
+}
+function setP(v) { document.getElementById('pb').style.width = v + '%' }
+function setPt(t) { document.getElementById('pt').innerHTML = t }
+
+let toastT;
+function toast(msg, cls = '') {
+  const t = document.getElementById('toast');
+  t.innerHTML = msg;
+  t.className = 'toast show' + (cls ? ' ' + cls : '');
+  clearTimeout(toastT);
+  toastT = setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+let st2;
+document.getElementById('sinp').addEventListener('input', e => {
+  clearTimeout(st2);
+  st2 = setTimeout(() => { q = e.target.value; applyF() }, 200);
+});
+
+const uz = document.getElementById('uz');
+uz.addEventListener('dragover', e => { e.preventDefault(); uz.classList.add('drag') });
+uz.addEventListener('dragleave', () => uz.classList.remove('drag'));
+uz.addEventListener('drop', e => {
+  e.preventDefault(); uz.classList.remove('drag');
+  const f = e.dataTransfer.files[0];
+  if (f?.type === 'application/pdf') handlePDF(f);
+});
+
+// INITIAL DATABASE FETCH
+loadDatabase();
+</script>
+</body>
+</html>
