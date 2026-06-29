@@ -951,6 +951,58 @@ body.adm .adm-card-bar{display:flex}
 .adm-badge{position:fixed;top:64px;left:0;right:0;background:var(--dr);color:var(--az);text-align:center;font-size:11px;font-weight:700;padding:5px;z-index:190;letter-spacing:.5px;display:none}
 body.adm .adm-badge{display:block}
 body.adm .lay {margin-top:24px}
+
+/* ════════════════════════════════════════════
+   FORMULARIO DE DATOS DEL CLIENTE (CART)
+   ════════════════════════════════════════════ */
+#cart-form {
+  display: none;
+  padding: 16px 20px;
+  border-top: 1.5px solid var(--g2);
+  border-bottom: 1.5px solid var(--g2);
+  background: #f8fafc;
+  gap: 12px;
+  flex-direction: column;
+}
+body.cart-has-items #cart-form {
+  display: flex;
+}
+.cf-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cf-field label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--g3);
+}
+.cf-field input, .cf-field textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid var(--g2);
+  border-radius: 7px;
+  font-size: 13px;
+  color: var(--tx);
+  outline: none;
+  background: #fff;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+.cf-field input:focus, .cf-field textarea:focus {
+  border-color: var(--az2);
+}
+.cf-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 10px;
+}
+@media (max-width: 400px) {
+  .cf-row {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
 <body>
@@ -981,6 +1033,26 @@ body.adm .lay {margin-top:24px}
 <div class="cp" id="cp">
   <div class="cph"><span>🛒</span><div class="cpt">Tu pedido</div><button class="ccl" onclick="togCart()">✕</button></div>
   <div class="ci" id="ci"></div>
+  <div id="cart-form">
+    <div class="cf-field">
+      <label for="c-name">Nombre y Apellido *</label>
+      <input type="text" id="c-name" placeholder="Ej: Juan Pérez" required>
+    </div>
+    <div class="cf-row">
+      <div class="cf-field">
+        <label for="c-dni">DNI o CUIT *</label>
+        <input type="text" id="c-dni" placeholder="Ej: 20-35678901-4" required>
+      </div>
+      <div class="cf-field">
+        <label for="c-dir">Dirección de Entrega *</label>
+        <input type="text" id="c-dir" placeholder="Ej: Av. San Martín 123" required>
+      </div>
+    </div>
+    <div class="cf-field">
+      <label for="c-obs">Observaciones (entre calles, datos útiles)</label>
+      <textarea id="c-obs" rows="2" placeholder="Ej: Entre calles Rivadavia y Mitre. Portón negro."></textarea>
+    </div>
+  </div>
   <div class="cf">
     <div class="ctr"><span class="ctl">Total del pedido</span><span class="cta" id="cta">$0</span></div>
     <button class="wa" onclick="sendWA()">
@@ -1543,6 +1615,7 @@ function updCart() {
   const tot = items.reduce((s, p) => s + p.qty * p.price, 0);
   document.getElementById('ccnt').textContent = items.reduce((s, p) => s + p.qty, 0);
   document.getElementById('cta').textContent = '$' + tot.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  document.body.classList.toggle('cart-has-items', items.length > 0);
 }
 
 function togCart() {
@@ -1574,13 +1647,42 @@ function clrCart() {
   prods.forEach(p => p.qty = 0);
   document.querySelectorAll('.qc').forEach(e => { e.querySelector('.qd').textContent = 0; e.classList.remove('hq') });
   document.querySelectorAll('.card').forEach(c => c.classList.remove('inc'));
+  
+  // Clear customer form inputs
+  document.getElementById('c-name').value = '';
+  document.getElementById('c-dni').value = '';
+  document.getElementById('c-dir').value = '';
+  document.getElementById('c-obs').value = '';
+  
   updCart(); rendCart(); toast('Pedido vaciado');
 }
 
 function sendWA() {
   const items = getCart(); if (!items.length) { toast('El pedido está vacío'); return }
+  
+  const name = document.getElementById('c-name').value.trim();
+  const dni = document.getElementById('c-dni').value.trim();
+  const dir = document.getElementById('c-dir').value.trim();
+  const obs = document.getElementById('c-obs').value.trim();
+  
+  if (!name || !dni || !dir) {
+    toast('⚠️ Completá los campos obligatorios (*)', 'warn');
+    if (!name) document.getElementById('c-name').focus();
+    else if (!dni) document.getElementById('c-dni').focus();
+    else if (!dir) document.getElementById('c-dir').focus();
+    return;
+  }
+  
   const tot = items.reduce((s, p) => s + p.qty * p.price, 0);
   let msg = '🛒 *PEDIDO BIANI*\n━━━━━━━━━━━━━━━━\n';
+  msg += `👤 *Cliente:* ${name}\n`;
+  msg += `🆔 *DNI/CUIT:* ${dni}\n`;
+  msg += `📍 *Dirección:* ${dir}\n`;
+  if (obs) {
+    msg += `💬 *Obs:* ${obs}\n`;
+  }
+  msg += '━━━━━━━━━━━━━━━━\n';
+  
   items.forEach(p => {
     const sub = (p.qty * p.price).toLocaleString('es-AR', { minimumFractionDigits: 2 });
     msg += `▪ *${cleanN(p.name)}*\n  Cód. ${p.code} · Cant: ${p.qty} · $${sub}\n`;
