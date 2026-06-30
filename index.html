@@ -1219,8 +1219,8 @@ body.cart-has-items #cart-form {
 
 <script>
 // MAPPINGS AND CONFIGURATION
-const CI={"Alfajores": "🍫", "Chocolates y Bombones": "🍬", "Golosinas": "🍭", "Galletitas": "🍪", "Repostería y Postres": "🎂", "Yerba Mate": "🧉", "Café": "☕", "Té, Malta e Infusiones": "🍵", "Jugos y Bebidas": "🧃", "Vinos y Espirituosas": "🍷", "Aceites y Aderezos": "🫙", "Condimentos y Especias": "🌿", "Fideos, Arroz y Legumbres": "🍝", "Harinas y Repostería": "🌾", "Conservas y Verduras": "🥫", "Edulcorantes": "🍯", "Perfumes y Colonias": "💎", "Desodorantes": "💨", "Shampoo y Cuidado del Cabello": "🧖", "Higiene Bucal": "🪥", "Cremas e Higiene Corporal": "🧴", "Afeitado": "🪒", "Preservativos y Adultos": "❤️", "Higiene Femenina e Infantil": "🌸", "Papel Higiénico y Descartables": "🧻", "Detergentes y Lavarropas": "🫧", "Limpieza del Hogar": "🧹", "Pilas": "🔋", "Linternas y Lámparas": "💡", "Velas, Fósforos y Encendedores": "🕯️", "Ferretería y Varios": "🔧"};
-const GR={"🍫 Chocolates": ["Alfajores", "Chocolates y Bombones"], "🍭 Golosinas": ["Golosinas", "Galletitas", "Repostería y Postres"], "🛒 Almacén": ["Yerba Mate", "Café", "Té, Malta e Infusiones", "Jugos y Bebidas", "Vinos y Espirituosas", "Aceites y Aderezos", "Condimentos y Especias", "Fideos, Arroz y Legumbres", "Harinas y Repostería", "Conservas y Verduras", "Edulcorantes"], "🧴 Perfumería": ["Perfumes y Colonias", "Desodorantes", "Shampoo y Cuidado del Cabello", "Higiene Bucal", "Cremas e Higiene Corporal", "Afeitado", "Preservativos y Adultos"], "🏠 Hogar y Limpieza": ["Higiene Femenina e Infantil", "Papel Higiénico y Descartables", "Detergentes y Lavarropas", "Limpieza del Hogar"], "⚡ Electricidad": ["Pilas", "Linternas y Lámparas"], "🔧 Varios": ["Velas, Fósforos y Encendedores", "Ferretería y Varios"]};
+const CI={"Alfajores": "🍫", "Chocolates y Bombones": "🍬", "Golosinas": "🍭", "Galletitas": "🍪", "Repostería y Postres": "🎂", "Yerba Mate": "🧉", "Café": "☕", "Té, Malta e Infusiones": "🍵", "Bebidas": "🍹", "Aceites y Aderezos": "🫙", "Condimentos y Especias": "🌿", "Fideos, Arroz y Legumbres": "🍝", "Harinas y Repostería": "🌾", "Conservas y Verduras": "🥫", "Edulcorantes": "🍯", "Perfumería": "🧴", "Higiene Femenina e Infantil": "🌸", "Papel Higiénico y Descartables": "🧻", "Limpieza": "🧹", "Electricidad": "⚡", "Velas, Fósforos y Encendedores": "🕯️", "Ferretería y Varios": "🔧"};
+const GR={"🍫 Chocolates": ["Alfajores", "Chocolates y Bombones"], "🍭 Golosinas": ["Golosinas", "Galletitas", "Repostería y Postres"], "🍷 Bebidas": ["Bebidas"], "🛒 Almacén": ["Yerba Mate", "Café", "Té, Malta e Infusiones", "Aceites y Aderezos", "Condimentos y Especias", "Fideos, Arroz y Legumbres", "Harinas y Repostería", "Conservas y Verduras", "Edulcorantes"], "🧴 Perfumería": ["Perfumería"], "🏠 Hogar y Limpieza": ["Limpieza", "Higiene Femenina e Infantil", "Papel Higiénico y Descartables"], "⚡ Electricidad": ["Electricidad"], "🔧 Varios": ["Velas, Fósforos y Encendedores", "Ferretería y Varios"]};
 
 // CONFIGURATION VARIABLES
 const DEFAULT_SHEET_ID = "179n3Fa7WUbA1ZlgtAVVlIaxbQdaP5CV49NhPY0Ulrn0"; // ← Podés ingresar tu ID por defecto de Google Sheets acá (ej: "1A2B3C4D...")
@@ -1291,12 +1291,21 @@ async function loadDatabase() {
       fetch('code_to_image.json').then(r => r.json()).catch(() => ({}))
     ]);
     
-    // Normalize subcategories into Golosinas and Galletitas
+    // Normalize subcategories dynamically
     for (const c in catRes) {
-      if (catRes[c] === "Caramelos y Chicles" || catRes[c] === "Chupetines, Gomitas y Regaliz") {
+      const val = catRes[c];
+      if (val === "Caramelos y Chicles" || val === "Chupetines, Gomitas y Regaliz") {
         catRes[c] = "Golosinas";
-      } else if (catRes[c] === "Galletitas Dulces" || catRes[c] === "Galletitas Saladas, Snacks y Budines") {
+      } else if (val === "Galletitas Dulces" || val === "Galletitas Saladas, Snacks y Budines") {
         catRes[c] = "Galletitas";
+      } else if (val === "Jugos y Bebidas" || val === "Vinos y Espirituosas") {
+        catRes[c] = "Bebidas";
+      } else if (val === "Perfumes y Colonias" || val === "Desodorantes" || val === "Shampoo y Cuidado del Cabello" || val === "Higiene Bucal" || val === "Cremas e Higiene Corporal" || val === "Afeitado" || val === "Preservativos y Adultos") {
+        catRes[c] = "Perfumería";
+      } else if (val === "Detergentes y Lavarropas" || val === "Limpieza del Hogar") {
+        catRes[c] = "Limpieza";
+      } else if (val === "Pilas" || val === "Linternas y Lámparas") {
+        catRes[c] = "Electricidad";
       }
     }
     
@@ -1416,6 +1425,20 @@ function processCSVRows(rows) {
       cat = "Golosinas";
     } else if (cat === "Galletitas Dulces" || cat === "Galletitas Saladas, Snacks y Budines") {
       cat = "Galletitas";
+    } else if (cat === "Jugos y Bebidas" || cat === "Vinos y Espirituosas") {
+      cat = "Bebidas";
+    } else if (cat === "Perfumes y Colonias" || cat === "Desodorantes" || cat === "Shampoo y Cuidado del Cabello" || cat === "Higiene Bucal" || cat === "Cremas e Higiene Corporal" || cat === "Afeitado" || cat === "Preservativos y Adultos") {
+      cat = "Perfumería";
+    } else if (cat === "Detergentes y Lavarropas" || cat === "Limpieza del Hogar") {
+      cat = "Limpieza";
+    } else if (cat === "Pilas" || cat === "Linternas y Lámparas") {
+      cat = "Electricidad";
+    }
+
+    // Smart override: check product name keywords to force specific category assignment
+    const lowerName = name.toLowerCase();
+    if (lowerName.includes("escoba") || lowerName.includes("escobillon") || lowerName.includes("secador") || lowerName.includes("pala") || lowerName.includes("franela") || lowerName.includes("piso") || lowerName.includes("rejilla") || lowerName.includes("paño") || lowerName.includes("cepillo") || lowerName.includes("esponja") || lowerName.includes("trapo")) {
+      cat = "Limpieza";
     }
     
     // Parse formatting: handles both US (11,424.78) and ES/AR (11.424,78)
