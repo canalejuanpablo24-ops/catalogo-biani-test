@@ -1300,11 +1300,12 @@ async function loadDatabase() {
   let sheetId = localStorage.getItem('biani_sheet_id') || DEFAULT_SHEET_ID;
   document.getElementById('sheetIdInp').value = sheetId;
   
-  // Load category and image mappings first
+  // Load category, image, and default order mappings first
   try {
-    const [catRes, imgRes] = await Promise.all([
+    const [catRes, imgRes, orderRes] = await Promise.all([
       fetch('code_to_category.json').then(r => r.json()).catch(() => ({})),
-      fetch('code_to_image.json').then(r => r.json()).catch(() => ({}))
+      fetch('code_to_image.json').then(r => r.json()).catch(() => ({})),
+      fetch('default_order.json').then(r => r.json()).catch(() => ([]))
     ]);
     
     // Normalize subcategories dynamically
@@ -1327,10 +1328,12 @@ async function loadDatabase() {
     
     window.codeToCat = catRes;
     window.codeToImg = imgRes;
+    window.pdfOrder = orderRes;
   } catch (e) {
     console.error("Error loading JSON mappings:", e);
     window.codeToCat = {};
     window.codeToImg = {};
+    window.pdfOrder = [];
   }
 
   let dataLoaded = false;
@@ -1896,7 +1899,10 @@ function loadAdminState() {
     });
     
     // 4. Apply custom order
-    const order = JSON.parse(localStorage.getItem(LS_K.order) || '[]');
+    let order = JSON.parse(localStorage.getItem(LS_K.order) || '[]');
+    if (order.length === 0 && window.pdfOrder && window.pdfOrder.length > 0) {
+      order = window.pdfOrder;
+    }
     if (order.length > 0) {
       const map = {};
       prods.forEach(p => { map[p.code] = p; });
