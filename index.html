@@ -1304,8 +1304,8 @@ async function loadDatabase() {
   // Load category and image mappings first
   try {
     const [catRes, imgRes] = await Promise.all([
-      fetch('code_to_category.json').then(r => r.json()).catch(() => ({})),
-      fetch('code_to_image.json').then(r => r.json()).catch(() => ({}))
+      fetch('code_to_category.json?v=' + Date.now()).then(r => r.json()).catch(() => ({})),
+      fetch('code_to_image.json?v=' + Date.now()).then(r => r.json()).catch(() => ({}))
     ]);
     
     // Normalize subcategories dynamically
