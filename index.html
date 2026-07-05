@@ -1665,8 +1665,6 @@ function mkCard(p) {
     imgHTML = `<div class="card-img-container"><div class="card-img-placeholder">${CI[p.category] || '📦'}</div></div>`;
   }
 
-  const isPila = p.name.toUpperCase().includes('PILA');
-
   d.innerHTML = `${ADMIN_ON ? `
   <div class="adm-card-bar">
     <span class="dh">☰</span>
@@ -1680,7 +1678,6 @@ function mkCard(p) {
   <div class="pc">#${p.code}</div>
   <div class="pn">${cleanN(p.name)}</div>
   <div class="pp">$${pi.toLocaleString('es-AR')}<span>,${pd}</span></div>
-  ${isPila ? '<div class="pila-badge">Precio por 1 unidad (no por pack)</div>' : ''}
   <div class="qc${hq ? ' hq' : ''}" id="qc-${p.code}">
     <button class="qb" onclick="chQ('${p.code}',-1)">−</button>
     <span class="qd">${p.qty}</span>
