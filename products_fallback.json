@@ -44,13 +44,13 @@
   {
     "code": "NEW_1",
     "name": "BARRITA DE ARROZ SIN TACC X 24 UNIDADES",
-    "category": "Varios",
+    "category": "Caramelos",
     "price": 23728.0
   },
   {
     "code": "NEW_2",
     "name": "REFRIGERIO OPERATIVO APRENDER PRIMARIA 2025",
-    "category": "Varios",
+    "category": "Despensa",
     "price": 2000.0
   },
   {
@@ -158,7 +158,7 @@
   {
     "code": "514",
     "name": "FEF CHUPELATIN X 15 GRS",
-    "category": "Chocolates",
+    "category": "Chupetines",
     "price": 989.54
   },
   {
@@ -560,7 +560,7 @@
   {
     "code": "NEW_29",
     "name": "MDZ  MILKA LUFLEE CARAMELO X 250 G (10)",
-    "category": "Caramelos",
+    "category": "Chocolates",
     "price": 23199.23
   },
   {
@@ -752,7 +752,7 @@
   {
     "code": "NEW_36",
     "name": "MDZ BOMBON MILKA OREO DISPLAY X 11 UNI",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 8035.92
   },
   {
@@ -776,13 +776,13 @@
   {
     "code": "NEW_40",
     "name": "MDZ BUBBA SPARKIES SOCO 12 X 72 G (12)",
-    "category": "Gomitas",
+    "category": "Chicles",
     "price": 1385.15
   },
   {
     "code": "NEW_41",
     "name": "MDZ BUBBA SPARKIES SOCO 18 X 24 G (18)",
-    "category": "Gomitas",
+    "category": "Chicles",
     "price": 604.6
   },
   {
@@ -860,7 +860,7 @@
   {
     "code": "2650",
     "name": "MDZ CHOCOPAUSE OREO X 45 GRS (24)   NUEVO",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 1889.02
   },
   {
@@ -1286,19 +1286,19 @@
   {
     "code": "6354",
     "name": "MDZ JUGO TANG X 20 UNI. \"SURTIDO\" SIN TACC",
-    "category": "Varios",
+    "category": "Jugos",
     "price": 7098.01
   },
   {
     "code": "NEW_50",
     "name": "MDZ MILKA BIS MILK 16 UNI X 105.6 GRS",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 3532.21
   },
   {
     "code": "NEW_51",
     "name": "MDZ MILKA BIS OREO 16 UNI X 105.6 GRS",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 3532.21
   },
   {
@@ -1490,7 +1490,7 @@
   {
     "code": "2587",
     "name": "MDZ ROYAL MOUSSE CHOCOLATE 6 X 65 GRS SIN TACC",
-    "category": "Despensa",
+    "category": "Chocolates",
     "price": 12581.92
   },
   {
@@ -1502,7 +1502,7 @@
   {
     "code": "2616",
     "name": "MDZ ROYAL POSTRE CHOCOLATE 6 X 65 GRS SIN TACC",
-    "category": "Despensa",
+    "category": "Chocolates",
     "price": 6693.71
   },
   {
@@ -1520,7 +1520,7 @@
   {
     "code": "2561",
     "name": "MDZ ROYAL POSTRE LIGHT CHOCOLATE 6 X 50 GRS SIN TACC",
-    "category": "Despensa",
+    "category": "Chocolates",
     "price": 6693.71
   },
   {
@@ -2060,31 +2060,31 @@
   {
     "code": "4092",
     "name": "MC PAN RALLADO MAMA COCINA X 350 GRS \"LIBRE DE GLUTEN\" (20)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 3175.25
   },
   {
     "code": "6419",
     "name": "MC PAN RALLADO MAMA COCINA X 5 KG (12)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 12332.32
   },
   {
     "code": "10038",
     "name": "MC PAN RALLADO MAMA COCINA X 500 GRS (12)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 1305.59
   },
   {
     "code": "6414",
     "name": "MC PAN RALLADO MC CON AJO Y PEREJIL X 500 GRS (12)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 1784.33
   },
   {
     "code": "6418",
     "name": "MC PAN RALLADO X 350 GRS \"INTEGRAL\" (12)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 1364.28
   },
   {
@@ -2120,7 +2120,7 @@
   {
     "code": "2669",
     "name": "MC PASEO MIX DE CEREALES X 300 GRS (14)",
-    "category": "Galletitas",
+    "category": "Cereales",
     "price": 1277.87
   },
   {
@@ -2216,13 +2216,13 @@
   {
     "code": "6412",
     "name": "MC REBOZADOR FREIR MC X 500 GRS (12)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 1255.15
   },
   {
     "code": "6413",
     "name": "MC REBOZADOR HORNO MC X 500 GRS (12)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 1648.72
   },
   {
@@ -2234,7 +2234,7 @@
   {
     "code": "4317",
     "name": "MC ROCIO VEGETAL X 150 GRS \"GIRASOL\"",
-    "category": "Despensa",
+    "category": "Pipas",
     "price": 3918.34
   },
   {
@@ -2384,19 +2384,19 @@
   {
     "code": "6022",
     "name": "SINA ANILINA EN FRIO \"AZUL\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2464.26
   },
   {
     "code": "1187",
     "name": "SINA ANILINA EN FRIO \"NEGRO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2464.26
   },
   {
     "code": "3641",
     "name": "SINA BALDE PLASTICO X 10 LTS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3166.09
   },
   {
@@ -2426,61 +2426,61 @@
   {
     "code": "845",
     "name": "SINA BROCHES DE MADERA X 12 UNI.",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1081.45
   },
   {
     "code": "3694",
     "name": "SINA BROCHES PLASTICOS ECONOMICOS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 942.71
   },
   {
     "code": "NEW_82",
     "name": "SINA CABO DE CHAPA X 1.2 MTS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1646.69
   },
   {
     "code": "3643",
     "name": "SINA CEPILLO DE MANO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1721.78
   },
   {
     "code": "5504",
     "name": "SINA CEPILLO LAVAVAQUERO CON MANGO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2175.1
   },
   {
     "code": "3329",
     "name": "SINA CEPILLO LAVAZAPATILLA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2598.6
   },
   {
     "code": "6102",
     "name": "SINA CEPILLO MULTIUSO X 35 CM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1935.23
   },
   {
     "code": "3645",
     "name": "SINA CEPILLO PARA AUTOS VIOLIN BASE MADERA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 4110.71
   },
   {
     "code": "3645",
     "name": "SINA CEPILLO PARA AUTOS VIOLIN BASE PLASTICO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3338.62
   },
   {
     "code": "3644",
     "name": "SINA CEPILLO UÑAS SIMPLE",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 955.68
   },
   {
@@ -2504,109 +2504,109 @@
   {
     "code": "6246",
     "name": "SINA ESCOBILLON CERDA NATURAL LISO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 7253.71
   },
   {
     "code": "3275",
     "name": "SINA ESCOBILLON PLASTICO AMBAR S/PALO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 4018.08
   },
   {
     "code": "6153",
     "name": "SINA ESCOBILLON PLASTICO ONIX",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 4430.74
   },
   {
     "code": "3331",
     "name": "SINA ESCOBITA PLASTICA MICA S/PALO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1636.67
   },
   {
     "code": "1808",
     "name": "SINA ESPONJA BAÑO FLOR",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1849.85
   },
   {
     "code": "5669",
     "name": "SINA ESPONJA COCINA ESPUMITA (12)",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 891.13
   },
   {
     "code": "3692",
     "name": "SINA ESPONJA COCINA PERLADA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 727.61
   },
   {
     "code": "1808",
     "name": "SINA ESPONJA DE BAÑO FLOR",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1863.53
   },
   {
     "code": "1810",
     "name": "SINA ESPONJA DE BAÑO RECTA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 882.3
   },
   {
     "code": "3085",
     "name": "SINA ESPONJA DE BRONCE GIGANTE X 30 GRS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1727.88
   },
   {
     "code": "1084",
     "name": "SINA ESPONJA DE BRONCE X 12 GRS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 753.83
   },
   {
     "code": "3460",
     "name": "SINA ESPONJA DE BRONCE X 9 GRS \"CHICA\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 542.08
   },
   {
     "code": "2723",
     "name": "SINA ESPONJA DE FIBRA SALVAUÑA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 544.28
   },
   {
     "code": "3001",
     "name": "SINA ESPONJA DOBLE CARA (BRONCE Y FIBRA)",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2121.99
   },
   {
     "code": "3086",
     "name": "SINA ESPONJA PLATEADA X 15 GRS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 486.47
   },
   {
     "code": "1083",
     "name": "SINA ESPONJA PLATEADA X 30 GRS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1053.81
   },
   {
     "code": "5838",
     "name": "SINA ESPONJA PLATEADA X 50 GRS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1742.58
   },
   {
     "code": "3691",
     "name": "SINA ESPONJA VEGETAL GIGANTE",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 4183.5
   },
   {
@@ -2618,43 +2618,43 @@
   {
     "code": "6259",
     "name": "SINA FRANELA DOBLE GIGANTE",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2001.04
   },
   {
     "code": "1943",
     "name": "SINA HILO DE ALGODON AMARILLO X 35 MTS (10)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 431.51
   },
   {
     "code": "1196",
     "name": "SINA HILO DE ALGODON X 35 MTS (10)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 340.02
   },
   {
     "code": "NEW_83",
     "name": "SINA LAMPAZO ALGODON GRANDE SIN ROSCA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3499.84
   },
   {
     "code": "6021",
     "name": "SINA LAMPAZO ALGODON MEDIANO CON ROSCA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 4151.49
   },
   {
     "code": "NEW_84",
     "name": "SINA LAMPAZO DE ALGODON Nº 1",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3269.25
   },
   {
     "code": "4161",
     "name": "SINA LAMPAZO MOPA AMARILLO EN TIRAS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3248.68
   },
   {
@@ -2684,61 +2684,61 @@
   {
     "code": "3556",
     "name": "SINA PALA PLASTICA C/CABO A PRESION",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 4044.76
   },
   {
     "code": "1085",
     "name": "SINA PALA PLASTICA DE MANO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1186.39
   },
   {
     "code": "NEW_85",
     "name": "SINA PALA PLASTICA REFORZADA C/ GOMA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3130.65
   },
   {
     "code": "902567",
     "name": "SINA PALANGANA X 7 LTS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2812.04
   },
   {
     "code": "3642",
     "name": "SINA PALETA MATAMOSCA",
-    "category": "Varios",
+    "category": "Chupetines",
     "price": 649.23
   },
   {
     "code": "3689",
     "name": "SINA PALO DE MADERA 1.50 MTS \"LARGO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3273.57
   },
   {
     "code": "1408",
     "name": "SINA PALO DE MADERA X 1.2 MTS",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1907.66
   },
   {
     "code": "6296",
     "name": "SINA PAÑO AMARILLO 38 X 36 CM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 444.71
   },
   {
     "code": "3697",
     "name": "SINA PAÑO AMARILLO TRAPO DE PISO MULTIUSO 50 X 56",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1243.4
   },
   {
     "code": "3375",
     "name": "SINA PAÑO REJILLA ROSA X 1 UNI",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 508.2
   },
   {
@@ -2750,25 +2750,25 @@
   {
     "code": "6069",
     "name": "SINA PLANCHITA CEPILLO LAVADO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2020.94
   },
   {
     "code": "6155",
     "name": "SINA PLUMERO BOCHA REPUESTO A ROSCA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2581.41
   },
   {
     "code": "1809",
     "name": "SINA PULVERIZADOR \"CHICO\" 250 CC",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2150.45
   },
   {
     "code": "4077",
     "name": "SINA PULVERIZADOR X 1 L",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2956.91
   },
   {
@@ -2780,43 +2780,43 @@
   {
     "code": "266",
     "name": "SINA SECADOR DE GOMA X 30 CM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1741.35
   },
   {
     "code": "265",
     "name": "SINA SECADOR DE GOMA X 40 CM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2229.3
   },
   {
     "code": "6253",
     "name": "SINA SECADOR DE GOMA X 50 COM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3210.13
   },
   {
     "code": "3690",
     "name": "SINA SECADOR DE PLASTICO SUPER REFORZADO X 40 CM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3122.68
   },
   {
     "code": "1857",
     "name": "SINA SECADOR DE PLASTICO X 40 CM.",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2225.15
   },
   {
     "code": "1082",
     "name": "SINA SECADOR DOBLE GOMA \"SUPER\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2052.45
   },
   {
     "code": "3693",
     "name": "SINA SECADORES DOBLE GOMA X 40 CM \"ENDURO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3394.91
   },
   {
@@ -2828,13 +2828,13 @@
   {
     "code": "1032",
     "name": "SINA SOPAPA GOMA NEGRA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1577.11
   },
   {
     "code": "3458",
     "name": "SINA SOPAPA PLASTICA MATRIPLASTER CON CABO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 4261.69
   },
   {
@@ -2846,85 +2846,85 @@
   {
     "code": "NEW_87",
     "name": "SINA TRAPO CON GUARDAS GRIS Y BLANCO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1202.11
   },
   {
     "code": "4310",
     "name": "SINA TRAPO DE PISO \"BLANCO\"  48 X 60",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1572.37
   },
   {
     "code": "268",
     "name": "SINA TRAPO DE PISO GRIS \"JULIETA \"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 846.66
   },
   {
     "code": "NEW_88",
     "name": "SINA TRAPO DE REJILLA DE ALGODON 37X30 CM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 321.86
   },
   {
     "code": "270",
     "name": "SINA TRAPO FRANELA NARANJA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1163.78
   },
   {
     "code": "6283",
     "name": "SINA TRAPO REJILLA AMERICANA HILO \"PABLITO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 743.5
   },
   {
     "code": "3459",
     "name": "SINA TRAPO REJILLA AUTO TRIPLE TEXA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 5366.59
   },
   {
     "code": "NEW_89",
     "name": "SINA TRAPO REPASADOR \"CORAZON\" PESADO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2125.9
   },
   {
     "code": "5773",
     "name": "SINA TRAPO REPASADOR \"NIDO DE ABEJA\" ESTAMPADO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1980.29
   },
   {
     "code": "5136",
     "name": "SINA TRAPO REPASADOR 42X60 \"SUPER CUADRO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2572.17
   },
   {
     "code": "5138",
     "name": "SINA TRAPO REPASADOR CUADRILLE RAYADO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1776.92
   },
   {
     "code": "902585",
     "name": "SINA TRAPO REPASADOR TOALLA CUADRILLE",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1776.92
   },
   {
     "code": "5837",
     "name": "SINA TRAPO SOFT BLANCO PREMIUM",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 912.34
   },
   {
     "code": "3546",
     "name": "SINA XL ESPONJA SALVAUÑA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 711.48
   },
   {
@@ -2990,7 +2990,7 @@
   {
     "code": "2576",
     "name": "LAMPARA LED RAYOVAC X 12 W",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 2590.44
   },
   {
@@ -3434,25 +3434,25 @@
   {
     "code": "10040",
     "name": "RAYOVAC LAMPARA RECARGABLE X 7 W",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 7371.39
   },
   {
     "code": "5129",
     "name": "REFRESH AMBIENTADOR DE PAPEL AUTO NUEVO",
-    "category": "Bic",
+    "category": "Papelería",
     "price": 854.8
   },
   {
     "code": "5128",
     "name": "REFRESH AMBIENTADOR DE PAPEL BRISA",
-    "category": "Bic",
+    "category": "Papelería",
     "price": 854.8
   },
   {
     "code": "5127",
     "name": "REFRESH AMBIENTADOR DE PAPEL CHERRY",
-    "category": "Bic",
+    "category": "Papelería",
     "price": 854.8
   },
   {
@@ -3536,43 +3536,43 @@
   {
     "code": "1275",
     "name": "VINCHA ENERGIZER RECARGABLE X 180 LUMENS",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 22487.77
   },
   {
     "code": "1307",
     "name": "VINCHA ENERGIZER RECARGABLE X 450 LUMENS (C/SENSOR DE MOVIMIENTO)",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 25608.44
   },
   {
     "code": "6002",
     "name": "VINCHA ENERGIZER X 300 LUMENS (CAJA)",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 13740.31
   },
   {
     "code": "NEW_94",
     "name": "VINCHA ENERGIZER X 400 LUMENS (CINTILLO HDL30)",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 13738.58
   },
   {
     "code": "6013",
     "name": "VINCHA MANOS LIBRES ENERGIZER 300 LUMENS (HEADLAMP)",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 26388.94
   },
   {
     "code": "6001",
     "name": "VINCHA MANOS LIBRES ENERGIZER 400 LUMENS (HEADLAMP)",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 35191.11
   },
   {
     "code": "6000",
     "name": "VINCHA MANOS LIBRES ENERGIZER 60 LUMENS UNIVERSAL",
-    "category": "Lámparas",
+    "category": "Pilas",
     "price": 20757.21
   },
   {
@@ -3986,13 +3986,13 @@
   {
     "code": "2013",
     "name": "PRIF. HISOPO X 100 UNI \"POTE\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2224.22
   },
   {
     "code": "2010",
     "name": "PRIF. HISOPO X 75 UNI \"CAJA\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1951.95
   },
   {
@@ -4010,25 +4010,25 @@
   {
     "code": "2015",
     "name": "PRIF. TOALLA BEBE IDEAL X 50 UNI. \"ALOE\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1826.92
   },
   {
     "code": "2014",
     "name": "PRIF. TOALLA BEBE IDEAL X 50 UNI. \"CLASICA\" (14)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1826.92
   },
   {
     "code": "3358",
     "name": "PRIF. TOALLA BEBE Q-SOFT X 50 \"CLASICA\" (14)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2267.95
   },
   {
     "code": "2017",
     "name": "PRIF. TOALLA BEBE Q-SOFT X 50 UNI. \"ALOE VERA\" (14)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2267.6
   },
   {
@@ -4088,7 +4088,7 @@
   {
     "code": "NEW_104",
     "name": "GEO BOLITA DE CHOCOLATE TODDY X 200 G.",
-    "category": "Cereales",
+    "category": "Chocolates",
     "price": 2776.88
   },
   {
@@ -4112,7 +4112,7 @@
   {
     "code": "702",
     "name": "GEO CEREAL FLOW X 1 UNI",
-    "category": "Varios",
+    "category": "Cereales",
     "price": 647.87
   },
   {
@@ -4202,19 +4202,19 @@
   {
     "code": "2716",
     "name": "GEO CHUP. FLYNN PAFF X 24 UNI  \"CEREZA\" SIN TACC",
-    "category": "Chupetines",
+    "category": "Caramelos",
     "price": 5275.47
   },
   {
     "code": "2716",
     "name": "GEO CHUP. FLYNN PAFF X 24 UNI. \"SANDIA- MELON\" SIN TACC",
-    "category": "Chupetines",
+    "category": "Caramelos",
     "price": 5275.06
   },
   {
     "code": "1614",
     "name": "GEO CHUP. FLYNN PAFF X 24 UNI. \"TUTTI\" SIN TACC",
-    "category": "Chupetines",
+    "category": "Caramelos",
     "price": 5275.06
   },
   {
@@ -4436,7 +4436,7 @@
   {
     "code": "699",
     "name": "GEO MANTECOL OBLEA X 18 UN",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 12184.53
   },
   {
@@ -4478,7 +4478,7 @@
   {
     "code": "4105",
     "name": "COMBO VUELTA AL COLE (1 JUGO PEPITO + 1 ALFA. GENIO TRIPLE)",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 720.43
   },
   {
@@ -4538,55 +4538,55 @@
   {
     "code": "274",
     "name": "ARGENTUM ESCOBILLON \"BARI S/PALO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2298.2
   },
   {
     "code": "276",
     "name": "ARGENTUM ESCOBILLON \"PLUS S/PALO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 3753.53
   },
   {
     "code": "275",
     "name": "ARGENTUM ESCOBILLON \"VENETTO S/PALO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2465.59
   },
   {
     "code": "3599",
     "name": "ARGENTUM TRAPO DE PISO \"BLANCO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1297.1
   },
   {
     "code": "3599",
     "name": "ARGENTUM TRAPO DE PISO \"GRIS\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 812.66
   },
   {
     "code": "3599",
     "name": "ARGENTUM TRAPO DE PISO \"REFORZADO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2173.26
   },
   {
     "code": "279",
     "name": "ARGENTUM TRAPO DE REJILLA REFORZADA",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 954.38
   },
   {
     "code": "NEW_116",
     "name": "ARGENTUM TRAPO PISO CONSORCIO 60X70 BLANCO",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 2850.51
   },
   {
     "code": "NEW_117",
     "name": "PAPEL HIG. FAMILY 4 X 30 MTS (PACK FAMILIAR)",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 1151.92
   },
   {
@@ -4628,7 +4628,7 @@
   {
     "code": "6398",
     "name": "LDC ALFA. CHOCOARROZ X 1 UNI. \"SURTIDO\" SIN TACC",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 873.02
   },
   {
@@ -4652,19 +4652,19 @@
   {
     "code": "6072",
     "name": "LDC BOMBON CLASSIC X 60 UNI  \"DISPLAY\"",
-    "category": "Gomitas",
+    "category": "Chocolates",
     "price": 7071.02
   },
   {
     "code": "1046",
     "name": "LDC BOMBON DE FRUTA GIFT X 350 GRS",
-    "category": "Gomitas",
+    "category": "Chocolates",
     "price": 3901.04
   },
   {
     "code": "5530",
     "name": "LDC BULL DOG CRAZY CHUP + POLVO X 10 U SIN TACC",
-    "category": "Caramelos",
+    "category": "Despensa",
     "price": 6234.2
   },
   {
@@ -4796,25 +4796,25 @@
   {
     "code": "1972",
     "name": "LDC DISPLAY GALLO OBLEA DE ARROZ X 24 UNI.",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 19462.73
   },
   {
     "code": "NEW_119",
     "name": "LDC DISPLAY GALLO OBLEA YOGUBAR X 24 UNI SIN T.A.C.C.",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 19462.73
   },
   {
     "code": "NEW_120",
     "name": "LDC DISPLAY OBLEA GALLO CHOCONUSS 24U X 20 GRS",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 19462.73
   },
   {
     "code": "NEW_121",
     "name": "LDC DISPLAY OBLEA GALLO LEMONBAR 24 UNI X 20 GRS",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 19462.73
   },
   {
@@ -5090,7 +5090,7 @@
   {
     "code": "185",
     "name": "LDC REGALIZ BULL DOG X 60 GRS \"CINTAS SURTIDAS\"  (24)",
-    "category": "Gomitas",
+    "category": "Papelería",
     "price": 806.63
   },
   {
@@ -5174,139 +5174,139 @@
   {
     "code": "6124",
     "name": "LDC YUMMY GRANEL X 500 GRS \"BANANA\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "2553",
     "name": "LDC YUMMY GRANEL X 500 GRS \"BOTELLITA\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "6181",
     "name": "LDC YUMMY GRANEL X 500 GRS \"CIEN PIES\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "53",
     "name": "LDC YUMMY GRANEL X 500 GRS \"DIENTES\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "6135",
     "name": "LDC YUMMY GRANEL X 500 GRS \"FRUTILLA CON CREMA\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "3007",
     "name": "LDC YUMMY GRANEL X 500 GRS \"HUEVOS FRITOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "6118",
     "name": "LDC YUMMY GRANEL X 500 GRS \"MORITAS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "6415",
     "name": "LDC YUMMY GRANEL X 500 GRS \"OSITOS ACIDOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "6182",
     "name": "LDC YUMMY GRANEL X 500 GRS \"OSITOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "6183",
     "name": "LDC YUMMY GRANEL X 500 GRS \"SANDIA\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5070.24
   },
   {
     "code": "NEW_136",
     "name": "LDC YUMMY OJITOS X 36 UNI",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 10515.51
   },
   {
     "code": "69",
     "name": "LDC YUMMY X 10 UNI \"DIENTES\" DISPLAY",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 6644.51
   },
   {
     "code": "1873",
     "name": "LDC YUMMY X 10 UNI \"HUEVOS FRITOS\" DISPLAY",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 6644.51
   },
   {
     "code": "5000",
     "name": "LDC YUMMY X 12 UNI \"ANIMALITOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "5000",
     "name": "LDC YUMMY X 12 UNI \"BOTELLITA\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "2697",
     "name": "LDC YUMMY X 12 UNI \"DINOSAURIO\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "NEW_137",
     "name": "LDC YUMMY X 12 UNI \"FRUTILLA CON CREMA\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "6121",
     "name": "LDC YUMMY X 12 UNI \"MORITAS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "6240",
     "name": "LDC YUMMY X 12 UNI \"OSITOS ACIDOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "6122",
     "name": "LDC YUMMY X 12 UNI \"OSITOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "2000",
     "name": "LDC YUMMY X 12 UNI \"PECECITOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "6123",
     "name": "LDC YUMMY X 12 UNI \"PIECITOS ACIDOS\" SIN TACC",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
     "code": "NEW_138",
     "name": "LDC YUMMY X 12 UNI \"TERROR\"",
-    "category": "Gomitas",
+    "category": "Caramelos",
     "price": 5126.41
   },
   {
@@ -5336,7 +5336,7 @@
   {
     "code": "5834",
     "name": "PSG ELEGANTE ROLLO DE COCINA X 200 PAÑOS (UNIDAD)",
-    "category": "Papelería",
+    "category": "Limpieza",
     "price": 2208.96
   },
   {
@@ -5432,13 +5432,13 @@
   {
     "code": "1760",
     "name": "PSG ROLLO COCINA ELEGANTE 3 X 50 PAÑOS (8)",
-    "category": "Papelería",
+    "category": "Limpieza",
     "price": 1705.37
   },
   {
     "code": "1422",
     "name": "PSG ROLLO COCINA ELEGANTE 3 X 60 PAÑOS (8)",
-    "category": "Papelería",
+    "category": "Limpieza",
     "price": 1929.8
   },
   {
@@ -5600,7 +5600,7 @@
   {
     "code": "453",
     "name": "ALP CREMA P/PEINAR PLUSBELLE X 300 ML \"NUTRI+COCO\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4176.74
   },
   {
@@ -5618,13 +5618,13 @@
   {
     "code": "10061",
     "name": "ALP D/PACK PLUSBELLE ESENCIA SHAMPOO X 300 CC \"HIDRATCION\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1808.6
   },
   {
     "code": "10061",
     "name": "ALP D/PACK PLUSBELLE ESENCIA SHAMPOO X 300 CC \"RESTAURACION\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1808.6
   },
   {
@@ -5858,25 +5858,25 @@
   {
     "code": "3685",
     "name": "ALP JABON CAMPOS VERDES X 120 GRS \"AROMATERAPIA\" (90)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 826.49
   },
   {
     "code": "2583",
     "name": "ALP JABON CAMPOS VERDES X 120 GRS \"CAMPO\" (90)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 826.49
   },
   {
     "code": "3684",
     "name": "ALP JABON CAMPOS VERDES X 120 GRS \"ENERGIA SOL\". (90)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 826.49
   },
   {
     "code": "3683",
     "name": "ALP JABON CAMPOS VERDES X 120 GRS \"FRESCURA\" (90)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 826.49
   },
   {
@@ -5888,151 +5888,151 @@
   {
     "code": "NEW_162",
     "name": "ALP JABON ESENCIA 3 X 120 GRS \" LECHE DE ARROZ\" (27)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 3091.88
   },
   {
     "code": "478",
     "name": "ALP JABON ESENCIA ESPUMA \"GLICERINA VEGETAL\" D/PACK X 250 CC (12)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1678.62
   },
   {
     "code": "6289",
     "name": "ALP JABON ESENCIA ESPUMA \"GLICERINA VEGETAL\" FRASCO X 250 CC (12)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2391.92
   },
   {
     "code": "5839",
     "name": "ALP JABON ESENCIA ESPUMA \"LECHE DE ARROZ\" D/PACK X 250 CC (12)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1678.62
   },
   {
     "code": "6287",
     "name": "ALP JABON ESENCIA ESPUMA \"LECHE DE ARROZ\" FRASCO X 250 CC (12)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2391.92
   },
   {
     "code": "NEW_163",
     "name": "ALP JABON LIMOL 3 X 90 GRS \"BOUQUET DE FLORES\" (35)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1661.6
   },
   {
     "code": "NEW_164",
     "name": "ALP JABON LIMOL 3 X 90 GRS \"PUREZA CREMOSA\" (35)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1661.6
   },
   {
     "code": "NEW_165",
     "name": "ALP JABON LIMOL 3 X 90 GRS \"VITALIDAD CITRICA\" (35)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1661.48
   },
   {
     "code": "5853",
     "name": "ALP JABON LIQ. PLUSBELLE X 230 CC \"BALANCE\" DOY PACK (15)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1414.57
   },
   {
     "code": "5852",
     "name": "ALP JABON LIQ. PLUSBELLE X 230 CC \"RECONEXION\" DOY PACK (15)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1414.57
   },
   {
     "code": "5851",
     "name": "ALP JABON LIQ. PLUSBELLE X 250 CC \"BALANCE\" FRASCO (12)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2408.95
   },
   {
     "code": "5851",
     "name": "ALP JABON LIQ. PLUSBELLE X 250 CC \"RECONEXION\" FRASCO (12)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2408.95
   },
   {
     "code": "987",
     "name": "ALP JABON PLUSBELLE 3 X 125 GRS  \"COCO Y VAINILLA\" (27)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2915.05
   },
   {
     "code": "3320",
     "name": "ALP JABON PLUSBELLE 3 X 125 GRS \"FLORES ROSAS\" (27)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2915.05
   },
   {
     "code": "988",
     "name": "ALP JABON PLUSBELLE 3 X 125 GRS \"FRESCURA\" (27)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2915.05
   },
   {
     "code": "3319",
     "name": "ALP JABON PLUSBELLE 3 X 125 GRS \"JAZMIN\" (27)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2915.05
   },
   {
     "code": "3322",
     "name": "ALP JABON PLUSBELLE 3 X 125 GRS \"LAVANDA\" (27)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2915.05
   },
   {
     "code": "988",
     "name": "ALP JABON PLUSBELLE 3 X 125 GRS \"NUTRICION\" (27)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2915.05
   },
   {
     "code": "988",
     "name": "ALP JABON PLUSBELLE 3 X 125 GRS \"SURTIDO\"",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2915.05
   },
   {
     "code": "987",
     "name": "ALP JABON PLUSBELLE X 125 GRS \"COCO Y VAINILLA\" (81)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 996.07
   },
   {
     "code": "3320",
     "name": "ALP JABON PLUSBELLE X 125 GRS \"FLORES ROSAS\" (81)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 996.07
   },
   {
     "code": "1662",
     "name": "ALP JABON PLUSBELLE X 125 GRS \"FRESCURA\" (81)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 996.07
   },
   {
     "code": "1662",
     "name": "ALP JABON PLUSBELLE X 125 GRS \"JAZMIN\" (81)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 996.07
   },
   {
     "code": "1662",
     "name": "ALP JABON PLUSBELLE X 125 GRS \"LAVANDA\" (81)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 996.07
   },
   {
     "code": "1662",
     "name": "ALP JABON PLUSBELLE X 125 GRS \"SURTIDO\"",
-    "category": "Varios",
+    "category": "Detergentes",
     "price": 996.07
   },
   {
@@ -6074,19 +6074,19 @@
   {
     "code": "NEW_169",
     "name": "ALP JABON X 3 CAMPOS VERDES  \"FRESCURA\" (30)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2213.63
   },
   {
     "code": "NEW_170",
     "name": "ALP JABON X 3 CAMPOS VERDES \"AROMATERAPIA\" (30)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2213.47
   },
   {
     "code": "NEW_171",
     "name": "ALP JABON X 3 CAMPOS VERDES ENERGIA (30)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 2213.63
   },
   {
@@ -6188,25 +6188,25 @@
   {
     "code": "6236",
     "name": "ALP POLVO LIMZUL X 400 GS B/E (36)",
-    "category": "Detergentes",
+    "category": "Despensa",
     "price": 966.15
   },
   {
     "code": "6236",
     "name": "ALP POLVO LIMZUL X 400 GS REGULAR (36)",
-    "category": "Detergentes",
+    "category": "Despensa",
     "price": 966.15
   },
   {
     "code": "6237",
     "name": "ALP POLVO LIMZUL X 800 GS B/E (20)",
-    "category": "Detergentes",
+    "category": "Despensa",
     "price": 1715.33
   },
   {
     "code": "6235",
     "name": "ALP POLVO LIMZUL X 800 GS REGULAR (20)",
-    "category": "Detergentes",
+    "category": "Despensa",
     "price": 1715.33
   },
   {
@@ -6224,73 +6224,73 @@
   {
     "code": "NEW_175",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L  \"BRILLO\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_176",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L  \"FRESCURA\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_177",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L  \"NUTRICION\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_178",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L  \"REPARACION\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_179",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L  \"SUAVIDAD\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_180",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L \"BALANCE\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_181",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L \"FUERZA\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_182",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L \"HIDRATACION NUTRITIVA\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_183",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L \"PROTECCION\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_184",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L \"SURTIDO\"",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_185",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L REACT. HIDRATANTE (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
     "code": "NEW_186",
     "name": "ALP SHAMPOO PLUSBELLE X 1 L VITALIDAD RENOVADORA (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2499.03
   },
   {
@@ -6350,37 +6350,37 @@
   {
     "code": "5811",
     "name": "ALP ZORRO BAÑO X 500 ML \"DOY PACK\" (18)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 1597.02
   },
   {
     "code": "6089",
     "name": "ALP ZORRO BAÑO X 500 ML \"GATILLO\" (20)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 2844.23
   },
   {
     "code": "5810",
     "name": "ALP ZORRO COCINA X 500 ML \"DOY PACK\" (21)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 1597.02
   },
   {
     "code": "5808",
     "name": "ALP ZORRO COCINA X 500 ML \"GATILLO\" (20)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 2844.23
   },
   {
     "code": "5811",
     "name": "ALP ZORRO DESINFECTANTE X 500 ML \"DOY PACK\" (18)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 1836.71
   },
   {
     "code": "6134",
     "name": "ALP ZORRO DESINFECTANTE X 500 ML \"GATILLO\" (20)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 2844.23
   },
   {
@@ -6398,13 +6398,13 @@
   {
     "code": "5968",
     "name": "ALP ZORRO VIDRIO X 500 ML \"GATILLO\" (20)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 2844.23
   },
   {
     "code": "5810",
     "name": "ALP ZORRO VIDRIOS X 500 ML \"DOY PACK\" (21)",
-    "category": "Limpieza",
+    "category": "Detergentes",
     "price": 1597.02
   },
   {
@@ -6542,7 +6542,7 @@
   {
     "code": "NEW_192",
     "name": "PHILIPS LAMPARA DICROICA 50W  12V",
-    "category": "Varios",
+    "category": "Lámparas",
     "price": 250.11
   },
   {
@@ -6716,7 +6716,7 @@
   {
     "code": "3014",
     "name": "LRT CHUPETIN  BOLA LOCA X 24 UNI. \"FRUTILLA C/CHICLE\" SIN TACC",
-    "category": "Chupetines",
+    "category": "Chicles",
     "price": 3072.07
   },
   {
@@ -6836,7 +6836,7 @@
   {
     "code": "NEW_200",
     "name": "LRT POSTRE DE MANI \"MARRAKESH\" X 110 G",
-    "category": "Chocolates",
+    "category": "Despensa",
     "price": 1044.47
   },
   {
@@ -6872,7 +6872,7 @@
   {
     "code": "5053",
     "name": "CP AGUA DE BIENVENIDA LA PASIONARIA BEBE",
-    "category": "Perfumería",
+    "category": "Bebidas",
     "price": 14612.82
   },
   {
@@ -8078,37 +8078,37 @@
   {
     "code": "1714",
     "name": "CP LAS PEPAS HERA DESODORANTE 123 ML.",
-    "category": "Perfumería",
+    "category": "Galletitas",
     "price": 3838.06
   },
   {
     "code": "2071",
     "name": "CP LAS PEPAS HERA PERFUME X 100 CC C/VAP",
-    "category": "Perfumería",
+    "category": "Galletitas",
     "price": 30237.89
   },
   {
     "code": "5999",
     "name": "CP LAS PEPAS MITO DESODORANTE 123 ML.",
-    "category": "Perfumería",
+    "category": "Galletitas",
     "price": 3837.48
   },
   {
     "code": "5997",
     "name": "CP LAS PEPAS MITO PERFUME X 100 CC C/VAP",
-    "category": "Perfumería",
+    "category": "Galletitas",
     "price": 30237.89
   },
   {
     "code": "6110",
     "name": "CP LAS PEPAS NINFA DESODORANTE 123 ML.",
-    "category": "Perfumería",
+    "category": "Galletitas",
     "price": 3837.48
   },
   {
     "code": "5998",
     "name": "CP LAS PEPAS NINFA PERFUME X 100 ML. C/VAP",
-    "category": "Perfumería",
+    "category": "Galletitas",
     "price": 30237.89
   },
   {
@@ -8666,13 +8666,13 @@
   {
     "code": "NEW_224",
     "name": "MCA CINTA DE ENMASCARAR \"AZUL\" (12)",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 1066.35
   },
   {
     "code": "NEW_225",
     "name": "MCA CINTA DE ENMASCARAR X 25 MM (16)  \"BLANCA\"",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 770.77
   },
   {
@@ -8732,19 +8732,19 @@
   {
     "code": "17",
     "name": "MCA DOREE AGUA OXIGENADA 10 VOL.",
-    "category": "Varios",
+    "category": "Bebidas",
     "price": 718.74
   },
   {
     "code": "4012",
     "name": "MCA DOREE AGUA OXIGENADA 20 VOL \"CREMA\"",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 1233.29
   },
   {
     "code": "4080",
     "name": "MCA DOREE AGUA OXIGENADA 30 VOL \"CREMA\"",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 1343.22
   },
   {
@@ -8774,7 +8774,7 @@
   {
     "code": "1469",
     "name": "MCA DOREE QUITAESMALTE X 65CC PROTECTOR CON LANOLINA",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 1543.66
   },
   {
@@ -8834,31 +8834,31 @@
   {
     "code": "4325",
     "name": "MCA MACAO CEPILLO DENTAL P/ NIÑOS X 12 UNI \"BLISTER\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 7171.07
   },
   {
     "code": "26",
     "name": "MCA MACAO CINTA AISLADORA X 8 MTS",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 772.88
   },
   {
     "code": "46",
     "name": "MCA MACAO CINTA CONFITERA 24MM X 50 MTS X 1 UNI (6)",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 616.52
   },
   {
     "code": "3372",
     "name": "MCA MACAO CINTA DE TEFLON X 12 UNI. \"ANGOSTA\"",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 5339.27
   },
   {
     "code": "3372",
     "name": "MCA MACAO CINTA DE TEFLON X 12 UNI. \"GRUESA\"",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 8859.69
   },
   {
@@ -8924,19 +8924,19 @@
   {
     "code": "4327",
     "name": "MCA MACAO PEINE DE BOLSILLO X 12 UNI",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 1185.92
   },
   {
     "code": "4328",
     "name": "MCA MACAO PEINE FAMILIAR X 12 UNI",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 3239.23
   },
   {
     "code": "3507",
     "name": "MCA MACAO PILA AAA X 1 UNI.",
-    "category": "Varios",
+    "category": "Pilas",
     "price": 310.11
   },
   {
@@ -9110,7 +9110,7 @@
   {
     "code": "3045",
     "name": "SOL DE NOCHE PERFUME X 15 W",
-    "category": "Lámparas",
+    "category": "Perfumería",
     "price": 895.4
   },
   {
@@ -9284,457 +9284,457 @@
   {
     "code": "3301",
     "name": "MCA CINTA ADHESIVA 12 ROLLOS X 10 MTS \"ESCOLAR\"",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 1143.45
   },
   {
     "code": "215",
     "name": "PROTECTOR CALIPSO C FRAGANCIA X 20 UNI. (40)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 821.23
   },
   {
     "code": "2223",
     "name": "PROTECTOR CALIPSO C FRAGANCIA X 50 UNI. (20)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1669.45
   },
   {
     "code": "209",
     "name": "PROTECTOR CALIPSO COLA LESS X 20 UNI. (40)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 988.7
   },
   {
     "code": "902602",
     "name": "PROTECTOR CALIPSO COLA LESS X 50 UNI (10)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2134.1
   },
   {
     "code": "211",
     "name": "PROTECTOR CALIPSO DIARIOS X 20 UNI. (40)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 821.23
   },
   {
     "code": "3818",
     "name": "PROTECTOR CALIPSO DIARIOS X 30 UNI (32)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1018.69
   },
   {
     "code": "2737",
     "name": "PROTECTOR CALIPSO DIARIOS X 50 UNI. (20)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1669.45
   },
   {
     "code": "5083",
     "name": "PROTECTOR CALIPSO DIARIOS X 80 UNI (10)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2438.36
   },
   {
     "code": "210",
     "name": "PROTECTOR CALIPSO MULTIESTILO X 20 UNI. (40)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 988.7
   },
   {
     "code": "2540",
     "name": "PROTECTOR CALIPSO MULTIESTILO X 50 UNI. (10)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2134.1
   },
   {
     "code": "10027",
     "name": "PROTECTOR CALIPSO RESPIRABLE X 20 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 821.23
   },
   {
     "code": "10026",
     "name": "PROTECTOR CALIPSO RESPIRABLE X 50 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1669.46
   },
   {
     "code": "5797",
     "name": "PROTECTOR NOSOTRAS \"RESPIRABLE\" X 15 UNI (48)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1344.99
   },
   {
     "code": "5798",
     "name": "PROTECTOR NOSOTRAS \"RESPIRABLE\" X 50 UNI (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4014.43
   },
   {
     "code": "2100",
     "name": "PROTECTOR NOSOTRAS DIARIOS LARGOS  X 15 UNI (36)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1566.18
   },
   {
     "code": "3260",
     "name": "PROTECTOR NOSOTRAS DIARIOS LARGOS X 50 UNI (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4491.08
   },
   {
     "code": "6094",
     "name": "PROTECTOR NOSOTRAS DIARIOS LARGOS X 80 UNI (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 6676.13
   },
   {
     "code": "1705",
     "name": "PROTECTOR NOSOTRAS DOBLES X 25 UNI. (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2954.89
   },
   {
     "code": "2113",
     "name": "PROTECTOR NOSOTRAS ESENCIAL X 20 UNI.",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1085.21
   },
   {
     "code": "9025",
     "name": "PROTECTOR NOSOTRAS LACTICOS X 12 UNI. (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2947.16
   },
   {
     "code": "902564",
     "name": "PROTECTOR NOSOTRAS MULTIESTILO X 100 UNI (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 7216.17
   },
   {
     "code": "1699",
     "name": "PROTECTOR NOSOTRAS MULTIESTILO X 20 UNI. (36)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1793.5
   },
   {
     "code": "1719",
     "name": "PROTECTOR NOSOTRAS MULTIESTILO X 60 UNI. (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4839.94
   },
   {
     "code": "1707",
     "name": "PROTECTOR NOSOTRAS NORMAL X 100 UNI (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 6208.07
   },
   {
     "code": "NEW_241",
     "name": "PROTECTOR NOSOTRAS NORMAL X 160 UNI (10) PACK FAMILIAR",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 8939.96
   },
   {
     "code": "1708",
     "name": "PROTECTOR NOSOTRAS NORMAL X 20 UNI. (36)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1643.3
   },
   {
     "code": "5562",
     "name": "PROTECTOR NOSOTRAS NORMAL X 30 UNI (32)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2038.14
   },
   {
     "code": "1697",
     "name": "PROTECTOR NOSOTRAS NORMAL X 60 UNI. (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4382.17
   },
   {
     "code": "NEW_242",
     "name": "PROTECTORES NOSOTRAS ORGANICO X 40 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2789.56
   },
   {
     "code": "2643",
     "name": "TAMPON NOSOTRAS X 8 UNI \"REGULAR\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2416.44
   },
   {
     "code": "2644",
     "name": "TAMPON NOSOTRAS X 8 UNI \"SUPER\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2416.44
   },
   {
     "code": "2689",
     "name": "TAMPON NOSOTRAS X 8 UNI. \"MINI\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2416.44
   },
   {
     "code": "NEW_243",
     "name": "TENA TOALLA HIGIENICA DISCREET MINI X 10",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4713.59
   },
   {
     "code": "2685",
     "name": "TOALLA CALIPSO C/A X 16 UNI \"CORTA\" (25)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1336.74
   },
   {
     "code": "1561",
     "name": "TOALLA CALIPSO C/ALAS X 8 UNI. \"CORTA\" (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 743.51
   },
   {
     "code": "902561",
     "name": "TOALLA CALIPSO C/ALAS Y FRAGANCIA X 8 UNI \"PLANA\" (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 767.25
   },
   {
     "code": "1710",
     "name": "TOALLA CALIPSO INCONTINENCIA ACTIVA X 8 UNI. (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1902.28
   },
   {
     "code": "10057",
     "name": "TOALLA CALIPSO INCONTINENCIA EXTRA ABSOR. X 8 UNI (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2283.92
   },
   {
     "code": "206",
     "name": "TOALLA CALIPSO NOCTURNAS X 8 UNI. (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1360.56
   },
   {
     "code": "2581",
     "name": "TOALLA CALIPSO NORMAL CON FRAGANCIA X 16 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1336.74
   },
   {
     "code": "10058",
     "name": "TOALLA CALIPSO NORMAL CON FRAGANCIA X 8 UNI (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 743.51
   },
   {
     "code": "203",
     "name": "TOALLA CALIPSO PLANA X 8 UNI. \"CON ALAS\" (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 767.25
   },
   {
     "code": "202",
     "name": "TOALLA CALIPSO PLANA X 8 UNI. \"SIN ALAS\" (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 767.25
   },
   {
     "code": "902562",
     "name": "TOALLA CALIPSO S/ALAS CON DESODORANTE X 8 UNI \"PLANA\" (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 767.25
   },
   {
     "code": "2686",
     "name": "TOALLA CALIPSO SUPER ANATOMICA X 16 UNI. (25)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1495.32
   },
   {
     "code": "205",
     "name": "TOALLA CALIPSO SUPER ANATOMICA X 8 UNI. (50)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 831.06
   },
   {
     "code": "NEW_244",
     "name": "TOALLA NOSOTRAS  DIA Y NOCHE X 16 U",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4055.56
   },
   {
     "code": "219",
     "name": "TOALLA NOSOTRAS BUENAS NOCHES \"ULTRA DELGADA\" X 14 (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4976.72
   },
   {
     "code": "207",
     "name": "TOALLA NOSOTRAS BUENAS NOCHES INVISIBLE X 8 UNI. (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2735.53
   },
   {
     "code": "5105",
     "name": "TOALLA NOSOTRAS BUENAS NOCHES X 12 UNI (20)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3256.59
   },
   {
     "code": "5105",
     "name": "TOALLA NOSOTRAS BUENAS NOCHES X 16 UNI (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4627.73
   },
   {
     "code": "501",
     "name": "TOALLA NOSOTRAS BUENAS NOCHES X 30 UNI (6)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 8181.68
   },
   {
     "code": "5111",
     "name": "TOALLA NOSOTRAS BUENAS NOCHES X 8 UNI (24)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2605.23
   },
   {
     "code": "2688",
     "name": "TOALLA NOSOTRAS CLASICA RAPISEC X 16 UNI. (15)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2473.97
   },
   {
     "code": "1702",
     "name": "TOALLA NOSOTRAS CLASICA RAPISEC X 8 UNI. (30)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1308.05
   },
   {
     "code": "5113",
     "name": "TOALLA NOSOTRAS CLASICA SUAVE X 16 UNI (15)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2471.41
   },
   {
     "code": "3294",
     "name": "TOALLA NOSOTRAS CLASICA SUAVE X 30 UNI (8)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4366.72
   },
   {
     "code": "3294",
     "name": "TOALLA NOSOTRAS CLASICA SUAVE X 8 UNI (30)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1306.8
   },
   {
     "code": "1715",
     "name": "TOALLA NOSOTRAS DELGADA X 16 UNI. (15)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3440.96
   },
   {
     "code": "1717",
     "name": "TOALLA NOSOTRAS DELGADA X 30 UNI (8)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 6170.9
   },
   {
     "code": "1717",
     "name": "TOALLA NOSOTRAS DELGADA X 8 UNI. (30)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1936.11
   },
   {
     "code": "6099",
     "name": "TOALLA NOSOTRAS DIA Y NOCHE LARGAS TELA X 16 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3905.93
   },
   {
     "code": "6099",
     "name": "TOALLA NOSOTRAS DIA Y NOCHE LARGAS TELA X 8 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2071.63
   },
   {
     "code": "1709",
     "name": "TOALLA NOSOTRAS ESENCIAL X 16 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1902.28
   },
   {
     "code": "204",
     "name": "TOALLA NOSOTRAS ESENCIAL X 8 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1013.86
   },
   {
     "code": "NEW_245",
     "name": "TOALLA NOSOTRAS INVISIBLE CUR V C/CALE30X8",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2780.0
   },
   {
     "code": "3021",
     "name": "TOALLA NOSOTRAS LARGA TELA X 16 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3907.21
   },
   {
     "code": "6363",
     "name": "TOALLA NOSOTRAS LARGA TELA X 8 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2071.62
   },
   {
     "code": "10036",
     "name": "TOALLA NOSOTRAS MATERNIDAD X 10 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 5223.11
   },
   {
     "code": "223",
     "name": "TOALLA NOSOTRAS NORMAL X 16 UNI. (15)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2813.44
   },
   {
     "code": "1701",
     "name": "TOALLA NOSOTRAS NORMAL X 8 UNI. (30)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1584.17
   },
   {
     "code": "6220",
     "name": "TOALLA NOSOTRAS ULTRA INVISIBLE RAPISEC X 14 UNI (15)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3132.35
   },
   {
     "code": "6086",
     "name": "TOALLA NOSOTRAS ULTRA INVISIBLE TELA X 14 UNI (15)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3132.35
   },
   {
     "code": "1703",
     "name": "TOALLA NOSOTRAS ULTRA RAPISEC X 8 UNI. (30)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1918.48
   },
   {
     "code": "1704",
     "name": "TOALLA NOSOTRAS ULTRA TELA X 8 UNI. (30)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1918.48
   },
   {
@@ -9758,7 +9758,7 @@
   {
     "code": "NEW_249",
     "name": "GALL. PALMERITAS SARAVA X 200 GRS (16)",
-    "category": "Varios",
+    "category": "Galletitas",
     "price": 700.0
   },
   {
@@ -9782,7 +9782,7 @@
   {
     "code": "NEW_250",
     "name": "TEMBLEKE CHUPETIN SUPER ACIDO X 10 U SIN TACC",
-    "category": "Gomitas",
+    "category": "Chupetines",
     "price": 8836.11
   },
   {
@@ -9794,13 +9794,13 @@
   {
     "code": "5523",
     "name": "TEMBLEKE DELIJELLY SNACK FRUTAL X 16",
-    "category": "Gomitas",
+    "category": "Snacks",
     "price": 1573.0
   },
   {
     "code": "28",
     "name": "TEMBLEKE DELIJELLY SNACK FRUTAL X 500 GRS SIN TACC",
-    "category": "Gomitas",
+    "category": "Snacks",
     "price": 5277.26
   },
   {
@@ -10166,19 +10166,19 @@
   {
     "code": "NEW_263",
     "name": "BIG JUGO X 1 LITRO \"MULTIFRUTAL\" (12)",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 400.01
   },
   {
     "code": "NEW_264",
     "name": "BIG JUGO X 200 CC \"MUTIFRUTAL\" (18)",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 5776.06
   },
   {
     "code": "NEW_265",
     "name": "EXHIBIDOR DE PILAS ENERGIZER",
-    "category": "Varios",
+    "category": "Pilas",
     "price": 52360.61
   },
   {
@@ -10268,19 +10268,19 @@
   {
     "code": "4280",
     "name": "JUGO BAGGIO 18 X 200 CC \"MULTIFRUTAL\"",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 8405.24
   },
   {
     "code": "NEW_280",
     "name": "JUGO BAGGIO 8 X 1 LITRO \"MULTIFRUTAL\"",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 12649.18
   },
   {
     "code": "2513",
     "name": "JUGO BAGGIO X 200 CC",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 393.09
   },
   {
@@ -10406,7 +10406,7 @@
   {
     "code": "436",
     "name": "CVL CEPILLOS DENTALES COLGATE",
-    "category": "Higiene",
+    "category": "Limpieza",
     "price": 1214.63
   },
   {
@@ -10424,73 +10424,73 @@
   {
     "code": "443",
     "name": "CVL CREMA DENTAL COLGATE ANTICARIES X 70 GRS (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2021.14
   },
   {
     "code": "3650",
     "name": "CVL CREMA DENTAL COLGATE HERBAL X 70 GRS (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2586.79
   },
   {
     "code": "6500",
     "name": "CVL CREMA DENTAL COLGATE LUMINOUS WHITE X 70 GRS (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4132.27
   },
   {
     "code": "6500",
     "name": "CVL CREMA DENTAL COLGATE LUMINOUS WHITE X 90 GRS (12) FAMILIAR",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 6114.25
   },
   {
     "code": "5631",
     "name": "CVL CREMA DENTAL COLGATE TOTAL 12 X 90 GRS (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4234.67
   },
   {
     "code": "6143",
     "name": "CVL CREMA DENTAL COLGATE TRIPLE ACCION X 70 GRS (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2307.65
   },
   {
     "code": "442",
     "name": "CVL CREMA DENTAL KOLYNOS X 70 GRS (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1842.81
   },
   {
     "code": "445",
     "name": "CVL CREMA DENTAL ODOL X 70 GRS (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1968.14
   },
   {
     "code": "3514",
     "name": "CVL CREMA DENTAL ODOLITO X 50 GRS \"FRUTILLA\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2104.72
   },
   {
     "code": "3350",
     "name": "CVL HILO DENTAL X 1 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3010.95
   },
   {
     "code": "429",
     "name": "CVL SHAMPOO SEDAL SACHET X 24 UNI.\"CERAMIDAS\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 5586.16
   },
   {
     "code": "428",
     "name": "CVL SHAMPOO SEDAL SACHET X 24 UNI.\"CREMA\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 5586.16
   },
   {
@@ -10814,13 +10814,13 @@
   {
     "code": "1962",
     "name": "MY CARAM. BUTTER TOFFEES X 822 GS  \"BON O BON\"",
-    "category": "Caramelos",
+    "category": "Chocolates",
     "price": 9572.09
   },
   {
     "code": "1962",
     "name": "MY CARAM. BUTTER TOFFEES X 822 GS  \"CHOCOLATE\"",
-    "category": "Caramelos",
+    "category": "Chocolates",
     "price": 9572.09
   },
   {
@@ -11246,13 +11246,13 @@
   {
     "code": "791",
     "name": "MY HAMLET X 45 GRS \"LECHE Y COOKIES\" SIN TACC",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 696.68
   },
   {
     "code": "788",
     "name": "MY HAMLET X 48 GRS \"BLANCO Y COOKIES\" SIN TACC",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 696.68
   },
   {
@@ -11264,7 +11264,7 @@
   {
     "code": "NEW_318",
     "name": "MY HAMLETON X 16 UNI. \"OBLEA\"",
-    "category": "Chocolates",
+    "category": "Galletitas",
     "price": 8755.63
   },
   {
@@ -11540,19 +11540,19 @@
   {
     "code": "NEW_330",
     "name": "ABUELA MECHA ALFAJOR DE ARROZ X 12 UNI \"BLANCO\"",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 3600.6
   },
   {
     "code": "NEW_331",
     "name": "ABUELA MECHA ALFAJOR DE ARROZ X 12 UNI \"NEGRO\"",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 3600.6
   },
   {
     "code": "NEW_332",
     "name": "ABUELA MECHA BOMBON DE FRUTA X 32 UNI",
-    "category": "Varios",
+    "category": "Chocolates",
     "price": 4562.4
   },
   {
@@ -11564,25 +11564,25 @@
   {
     "code": "NEW_334",
     "name": "ABUELA MECHA CARAMELO CHOCOMANI X 50 UNI",
-    "category": "Varios",
+    "category": "Caramelos",
     "price": 4608.03
   },
   {
     "code": "NEW_335",
     "name": "ABUELA MECHA CHUPETIN X 20 UNI \"CORAZON\"",
-    "category": "Varios",
+    "category": "Chupetines",
     "price": 24066.9
   },
   {
     "code": "NEW_336",
     "name": "ABUELA MECHA CHUPETIN X 20 UNI \"FRASES\"",
-    "category": "Varios",
+    "category": "Chupetines",
     "price": 24066.9
   },
   {
     "code": "NEW_337",
     "name": "VALIDO BIZCOCHUELO TRES CAPAS X 500 GRS \"CHOCOLATE\" (10)",
-    "category": "Varios",
+    "category": "Chocolates",
     "price": 1000.0
   },
   {
@@ -11606,13 +11606,13 @@
   {
     "code": "NEW_341",
     "name": "ALFAJOR MARADONA X 60 GRS \"BLANCO\"",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 676.39
   },
   {
     "code": "NEW_342",
     "name": "ALFAJOR MARADONA X 60 GRS \"NEGRO\"",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 676.39
   },
   {
@@ -11624,7 +11624,7 @@
   {
     "code": "6067",
     "name": "ALPAC PAPEL MANTECA 28 CM X 5 MTS",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 1464.46
   },
   {
@@ -11666,7 +11666,7 @@
   {
     "code": "1732",
     "name": "CARAMELO LIQUIDO ABEJITAS (8)",
-    "category": "Varios",
+    "category": "Caramelos",
     "price": 2850.14
   },
   {
@@ -11678,7 +11678,7 @@
   {
     "code": "10082",
     "name": "CORRECTOR FILGO X 1 UNIDAD",
-    "category": "Bi",
+    "category": "Papelería",
     "price": 786.5
   },
   {
@@ -11774,7 +11774,7 @@
   {
     "code": "10152",
     "name": "PAPEL OCB 25 LIB X 50 H \"PREMIUN\"",
-    "category": "Bic",
+    "category": "Papelería",
     "price": 21444.71
   },
   {
@@ -11864,7 +11864,7 @@
   {
     "code": "NEW_357",
     "name": "YERBA LA NAINA X 500 GRS",
-    "category": "Varios",
+    "category": "Yerbas",
     "price": 799.99
   },
   {
@@ -11894,7 +11894,7 @@
   {
     "code": "3422",
     "name": "DON SATUR MAGDALENA X 220 GS \"CHOCOLATE CON DULCE DE LECHE\"",
-    "category": "Galletitas",
+    "category": "Chocolates",
     "price": 2107.82
   },
   {
@@ -12242,55 +12242,55 @@
   {
     "code": "5044",
     "name": "LEIVA ALMOHADITAS DE ARROZ X 125 GRS \"CHOCOLATE\" (14) SIN TACC",
-    "category": "Galletitas",
+    "category": "Chocolates",
     "price": 1179.65
   },
   {
     "code": "5045",
     "name": "LEIVA ALMOHADITAS DE ARROZ X 125 GRS \"FRUTILLA\" (14) SIN TACC",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1179.65
   },
   {
     "code": "3242",
     "name": "LEIVA ALMOHADITAS DE ARROZ X 125 GRS \"LIMON\" (14) SIN TACC",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1179.65
   },
   {
     "code": "3163",
     "name": "LEIVA TOSTADAS DE ARROZ  X 150 GRS \"DULCE\" (12) SIN TACC",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1274.71
   },
   {
     "code": "3162",
     "name": "LEIVA TOSTADAS DE ARROZ  X 150 GRS \"SIN SAL\" (12) SIN TACC",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1274.71
   },
   {
     "code": "3352",
     "name": "LEIVA TOSTADAS DE ARROZ  X 160 GRS \"CHIA-LINO-SESAMO\" (12) VIOLETA SIN TACC",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1289.36
   },
   {
     "code": "3354",
     "name": "LEIVA TOSTADAS DE ARROZ X 150 GR \"INTEGRAL\" (12)",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1278.07
   },
   {
     "code": "3161",
     "name": "LEIVA TOSTADAS DE ARROZ X 150 GRS \"CLASICA\" (12) SIN TACC",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1274.71
   },
   {
     "code": "5833",
     "name": "LEIVA TOSTADITA DE ARROZ X 125 GRS \"CLASICA\" SIN TACC (16)",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 1011.68
   },
   {
@@ -12314,43 +12314,43 @@
   {
     "code": "NEW_364",
     "name": "DON MARCOS SNACK DE ARROZ X 80 GRS \"CREMA CON CIBOULETTE\" (18)",
-    "category": "Varios",
+    "category": "Snacks",
     "price": 400.0
   },
   {
     "code": "NEW_365",
     "name": "DON MARCOS SNACK DE ARROZ X 80 GRS \"FINAS HIERBAS\" (18)",
-    "category": "Varios",
+    "category": "Snacks",
     "price": 400.0
   },
   {
     "code": "NEW_366",
     "name": "DON MARCOS SNACK DE ARROZ X 80 GRS \"JAMON AHUMADO\" (18)",
-    "category": "Varios",
+    "category": "Snacks",
     "price": 400.0
   },
   {
     "code": "NEW_367",
     "name": "DON MARCOS SNACK DE ARROZ X 80 GRS \"MEDITERRANEO\" (18)",
-    "category": "Varios",
+    "category": "Snacks",
     "price": 400.0
   },
   {
     "code": "NEW_368",
     "name": "DON MARCOS SNACK DE ARROZ X 80 GRS \"PAPA FRITAS\" (18)",
-    "category": "Varios",
+    "category": "Snacks",
     "price": 400.0
   },
   {
     "code": "NEW_369",
     "name": "DON MARCOS SNACK DE ARROZ X 80 GRS \"PIZZA\" (18)",
-    "category": "Varios",
+    "category": "Snacks",
     "price": 400.0
   },
   {
     "code": "NEW_370",
     "name": "DON MARCOS SNACK DE ARROZ X 80 GRS \"QUESO CHEDDAR\" (18)",
-    "category": "Varios",
+    "category": "Snacks",
     "price": 400.0
   },
   {
@@ -12380,19 +12380,19 @@
   {
     "code": "NEW_371",
     "name": "NVR ALFAJOR SMACK DDL \"BLANCO\" 24UN X 60 GRS",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 9366.84
   },
   {
     "code": "NEW_372",
     "name": "NVR ALFAJOR SMACK MOUSSE DE CHOCO Y MANI 24 X 50 GRS",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 9366.84
   },
   {
     "code": "NEW_373",
     "name": "NVR ALFAJOR SMACK RELL/DULCE DE LECHE 24UN X 60 GRS",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 9366.84
   },
   {
@@ -12410,19 +12410,19 @@
   {
     "code": "NEW_374",
     "name": "NVR GALL. AIRES DE LUJAN X 180 GRS \"PEPAS DE MEMBRILLO\"",
-    "category": "Varios",
+    "category": "Galletitas",
     "price": 726.56
   },
   {
     "code": "NEW_375",
     "name": "NVR GALLETITAS AIRES DE LUJAN X 180 GRS \"CHOCOLATE\"",
-    "category": "Varios",
+    "category": "Galletitas",
     "price": 677.66
   },
   {
     "code": "NEW_376",
     "name": "NVR GALLETITAS AIRES DE LUJAN X 180 GRS \"MANTECA\"",
-    "category": "Varios",
+    "category": "Galletitas",
     "price": 677.66
   },
   {
@@ -12488,13 +12488,13 @@
   {
     "code": "NEW_378",
     "name": "NVR. GALL. AIRES DE LUJAN X 180 GRS \"AVENA Y CHIPS\"",
-    "category": "Varios",
+    "category": "Galletitas",
     "price": 677.66
   },
   {
     "code": "NEW_379",
     "name": "NVR. GALL. AIRES DE LUJAN X 180 GRS \"AVENA Y PASAS\"",
-    "category": "Varios",
+    "category": "Galletitas",
     "price": 677.66
   },
   {
@@ -12548,7 +12548,7 @@
   {
     "code": "995087",
     "name": "OBLEA RELLENA",
-    "category": "Varios",
+    "category": "Galletitas",
     "price": 178.08
   },
   {
@@ -12704,7 +12704,7 @@
   {
     "code": "NEW_383",
     "name": "GRABICH HUESITO DE CHOCOLATE X 80 GRS",
-    "category": "Varios",
+    "category": "Chocolates",
     "price": 620.73
   },
   {
@@ -12722,25 +12722,25 @@
   {
     "code": "NEW_384",
     "name": "GRABICH MANI CON CHOCOLATE X 80 GRS (36)",
-    "category": "Varios",
+    "category": "Chocolates",
     "price": 620.73
   },
   {
     "code": "NEW_385",
     "name": "GRABICH TURRON CROCANTE DE MANI X 100 GRS (28)",
-    "category": "Varios",
+    "category": "Turrones",
     "price": 1347.64
   },
   {
     "code": "NEW_386",
     "name": "GRABICH TURRON DE MANI BLANDO X 80 GRS (28)",
-    "category": "Varios",
+    "category": "Turrones",
     "price": 789.1
   },
   {
     "code": "NEW_387",
     "name": "ALFA. GULA KING X 72 GRS (24)",
-    "category": "Varios",
+    "category": "Alfajores",
     "price": 1040.89
   },
   {
@@ -12848,7 +12848,7 @@
   {
     "code": "5919",
     "name": "PLIN TUTUCA X 1 UNIDADES",
-    "category": "Turrones",
+    "category": "Caramelos",
     "price": 155.34
   },
   {
@@ -12878,7 +12878,7 @@
   {
     "code": "4155",
     "name": "PITUSAS MINI X 160 GRS \"CHOCOLATE\" (30)",
-    "category": "Galletitas",
+    "category": "Chocolates",
     "price": 957.27
   },
   {
@@ -12896,7 +12896,7 @@
   {
     "code": "5607",
     "name": "PITUSAS MINI X 160 GRS \"MOUSSE\" (30)",
-    "category": "Galletitas",
+    "category": "Despensa",
     "price": 957.27
   },
   {
@@ -12908,7 +12908,7 @@
   {
     "code": "4152",
     "name": "PITUSAS MINI X 300 GRS \"CHOCOLATE\" (16)",
-    "category": "Galletitas",
+    "category": "Chocolates",
     "price": 1716.19
   },
   {
@@ -13010,7 +13010,7 @@
   {
     "code": "NEW_393",
     "name": "PIPAS GIGANTE X 12 UNI \"BARBACOA\"",
-    "category": "Varios",
+    "category": "Pipas",
     "price": 5270.83
   },
   {
@@ -13028,13 +13028,13 @@
   {
     "code": "NEW_394",
     "name": "PIPAS GIGANTES X 12 UNI \"FUEGO PICANTE\"",
-    "category": "Varios",
+    "category": "Pipas",
     "price": 5270.83
   },
   {
     "code": "NEW_395",
     "name": "PIPAS TALITAS CRACK X 100 GR (20)",
-    "category": "Varios",
+    "category": "Pipas",
     "price": 412.02
   },
   {
@@ -13124,19 +13124,19 @@
   {
     "code": "NEW_401",
     "name": "JH GLADE PASTILLA P/INODORO X 25 GRS \"CAMPO\"",
-    "category": "Limpieza",
+    "category": "Pastillas",
     "price": 1384.87
   },
   {
     "code": "NEW_402",
     "name": "JH GLADE PASTILLA P/INODORO X 25 GRS \"LAVANADA\"",
-    "category": "Limpieza",
+    "category": "Pastillas",
     "price": 1384.87
   },
   {
     "code": "NEW_403",
     "name": "JH GLADE PASTILLA P/INODORO X 25 GRS \"PINO\"",
-    "category": "Limpieza",
+    "category": "Pastillas",
     "price": 1384.87
   },
   {
@@ -13166,7 +13166,7 @@
   {
     "code": "291",
     "name": "JH RAID PASTILLAS MOSQUITOS X 24 UNI.",
-    "category": "Varios",
+    "category": "Pastillas",
     "price": 5733.11
   },
   {
@@ -13178,19 +13178,19 @@
   {
     "code": "1506",
     "name": "JH REPELENTE EN CREMA OFF X 60CC (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2882.1
   },
   {
     "code": "NEW_406",
     "name": "JH REPELENTE OFF CREMA X 196 GRS \"GRANDE\" (12)",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 4091.92
   },
   {
     "code": "NEW_407",
     "name": "TUTUCA DULXELITOS X 7 KG",
-    "category": "Varios",
+    "category": "Caramelos",
     "price": 29149.99
   },
   {
@@ -13220,19 +13220,19 @@
   {
     "code": "4978",
     "name": "MENO. ALCAZAR VINAGRE DE VINO X 1000 CC (12)",
-    "category": "Despensa",
+    "category": "Bebidas",
     "price": 1699.63
   },
   {
     "code": "4981",
     "name": "MENO. ALCAZAR VINAGRE DE VINO X 500 CC (12)",
-    "category": "Despensa",
+    "category": "Bebidas",
     "price": 1062.25
   },
   {
     "code": "4982",
     "name": "MENOYO ACEITE DE GIRASOL EN AEROSOL X 120 GRS",
-    "category": "Despensa",
+    "category": "Pipas",
     "price": 3599.02
   },
   {
@@ -13304,7 +13304,7 @@
   {
     "code": "4945",
     "name": "MENOYO COCO RALLADO X 50 GRS (10)",
-    "category": "Despensa",
+    "category": "Galletitas",
     "price": 1325.57
   },
   {
@@ -13442,19 +13442,19 @@
   {
     "code": "5442",
     "name": "MENOYO JUGO DE LIMON X 1 LITRO (6)",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 2465.05
   },
   {
     "code": "4946",
     "name": "MENOYO JUGO DE LIMON X 250 CC (6)",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 1128.47
   },
   {
     "code": "4947",
     "name": "MENOYO JUGO DE LIMON X 500 CC (6)",
-    "category": "Despensa",
+    "category": "Jugos",
     "price": 1743.36
   },
   {
@@ -13604,7 +13604,7 @@
   {
     "code": "5026",
     "name": "MENOYO SEMILLAS GIRASOL X 125 GS (10)",
-    "category": "Despensa",
+    "category": "Pipas",
     "price": 1254.0
   },
   {
@@ -13670,19 +13670,19 @@
   {
     "code": "4977",
     "name": "MENOYO VINAGRE DE VINO X 1000 CC",
-    "category": "Despensa",
+    "category": "Bebidas",
     "price": 2027.91
   },
   {
     "code": "4979",
     "name": "MENOYO VINAGRE DE VINO X 250 CC",
-    "category": "Despensa",
+    "category": "Bebidas",
     "price": 885.28
   },
   {
     "code": "4980",
     "name": "MENOYO VINAGRE DE VINO X 500 CC (12)",
-    "category": "Despensa",
+    "category": "Bebidas",
     "price": 1327.77
   },
   {
@@ -13694,19 +13694,19 @@
   {
     "code": "NEW_410",
     "name": "BEBIDA SPORTADE X 750 ML \"COOL BLUE\"",
-    "category": "Jugos",
+    "category": "Bebidas",
     "price": 868.3
   },
   {
     "code": "NEW_411",
     "name": "BEBIDA SPORTADE X 750 ML \"FRUTAS TROPICALES\"",
-    "category": "Jugos",
+    "category": "Bebidas",
     "price": 868.3
   },
   {
     "code": "NEW_412",
     "name": "BEBIDA SPORTADE X 750 ML \"MANZANA\"",
-    "category": "Jugos",
+    "category": "Bebidas",
     "price": 868.3
   },
   {
@@ -13772,31 +13772,31 @@
   {
     "code": "5849",
     "name": "JUGO FRUTA 3 X 18 UNI \"SURTIDO\" SIN TACC",
-    "category": "Varios",
+    "category": "Jugos",
     "price": 5609.32
   },
   {
     "code": "448",
     "name": "CVLS CREMA HINDS X 125 CC",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2823.54
   },
   {
     "code": "449",
     "name": "CVLS CREMA HINDS X 250 CC",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 4912.95
   },
   {
     "code": "2031",
     "name": "CVLS CREMA HINDS X 350 CC",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 6603.33
   },
   {
     "code": "447",
     "name": "CVLS CREMA HINDS X 75 CC",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 3079.69
   },
   {
@@ -13886,13 +13886,13 @@
   {
     "code": "2711",
     "name": "SIGNO JABON DE TOCADOR LE NID 3 X 75 GRS (20)",
-    "category": "Detergentes",
+    "category": "Perfumería",
     "price": 1115.26
   },
   {
     "code": "2710",
     "name": "SIGNO JABON DE TOCADOR TRICOLOR 3 X 90 GRS (35)",
-    "category": "Detergentes",
+    "category": "Perfumería",
     "price": 1340.2
   },
   {
@@ -14048,7 +14048,7 @@
   {
     "code": "3454",
     "name": "DUFFY TOALLA HUMEDA X 48 UNI",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1884.73
   },
   {
@@ -14150,13 +14150,13 @@
   {
     "code": "4309",
     "name": "CHAC. CINTA DE EMPAQUE X 40 MTS \"TRANSP\" X 1 UNI",
-    "category": "Varios",
+    "category": "Papelería",
     "price": 1365.36
   },
   {
     "code": "3396",
     "name": "CHAC. CREMA ODORONO X 60 CC",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2339.68
   },
   {
@@ -14264,19 +14264,19 @@
   {
     "code": "3082",
     "name": "CHAC. GUANTE LATEX STEFF \"CHICO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1492.41
   },
   {
     "code": "3084",
     "name": "CHAC. GUANTE LATEX STEFF \"GRANDE\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1492.41
   },
   {
     "code": "3083",
     "name": "CHAC. GUANTE LATEX STEFF \"MEDIANO\"",
-    "category": "Varios",
+    "category": "Limpieza",
     "price": 1492.41
   },
   {
@@ -14294,37 +14294,37 @@
   {
     "code": "5861",
     "name": "CHAC. JABON DOVE \"ANTIBACTERIAL\" X 90 GS",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1870.3
   },
   {
     "code": "5861",
     "name": "CHAC. JABON DOVE \"EXFOLIACION\" X 90 GS",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1870.3
   },
   {
     "code": "5861",
     "name": "CHAC. JABON DOVE \"KARITE\" X 90 GS",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1870.3
   },
   {
     "code": "NEW_428",
     "name": "CHAC. JABON DOVE \"LECHE DE COCO Y JAZMIN\" X 90 G",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1870.3
   },
   {
     "code": "NEW_429",
     "name": "CHAC. JABON DOVE \"PIEL SENSIBLE\" X 90 G",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1870.3
   },
   {
     "code": "5861",
     "name": "CHAC. JABON DOVE ORIGINAL X 90 GS",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1870.3
   },
   {
@@ -14504,91 +14504,91 @@
   {
     "code": "NEW_437",
     "name": "CHAC. SEDAL SHAMPOO  X 190 CC \"SURTIDO\"",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "6064",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"ACIDO HIALURONICO\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "NEW_438",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"BOMBA ARGAN\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "NEW_439",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"CARBON ACTIVADO\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "3399",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"CERAMIDAS\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "5068",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"COLAGENO\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "3398",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"CREMA\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "NEW_440",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"JENGIBRE\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "3400",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"LISO PERFECTO\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "NEW_441",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"LISO Y FRIZZ CONTROL\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "5065",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"LUMINOUS UV\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "NEW_442",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"NUTRICION INTENSA\"",
-    "category": "Varios",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "5891",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"RESTAURACION INSTANTANEA\" (12)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "3209",
     "name": "CHAC. SEDAL SHAMPOO X 190 CC \"RIZOS\"",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2343.77
   },
   {
     "code": "3397",
     "name": "CHAC. TALCO EFFICIENT X 100 GRS",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2776.5
   },
   {
@@ -14702,7 +14702,7 @@
   {
     "code": "1889",
     "name": "LA VIRGINIA CAFE EN SAQUITOS X 20 UNI",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 4405.94
   },
   {
@@ -14816,7 +14816,7 @@
   {
     "code": "5072",
     "name": "LA VIRGINIA POLVO SABORIZADOR X 12 UNI \"CREMA DE VERDEO\"",
-    "category": "Despensa",
+    "category": "Perfumería",
     "price": 3746.97
   },
   {
@@ -14840,61 +14840,61 @@
   {
     "code": "6186",
     "name": "LA VIRGINIA TE X 20 SAQ \"LIMON\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 1696.64
   },
   {
     "code": "5005",
     "name": "LA VIRGINIA TE X 20 SAQ \"VERDE\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 1378.42
   },
   {
     "code": "1740",
     "name": "LA VIRGINIA TE X 25 SAQ \"BOLDO\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 1741.78
   },
   {
     "code": "5762",
     "name": "LA VIRGINIA TE X 25 SAQ \"CEDRON\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 1670.21
   },
   {
     "code": "10108",
     "name": "LA VIRGINIA TE X 25 SAQ \"CLASICO\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 825.2
   },
   {
     "code": "5762",
     "name": "LA VIRGINIA TE X 25 SAQ \"MANZANILLA\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 1395.72
   },
   {
     "code": "1740",
     "name": "LA VIRGINIA TE X 25 SAQ \"MEZCLA HIERBAS\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 1573.63
   },
   {
     "code": "5765",
     "name": "LA VIRGINIA TE X 25 SAQ \"TILO MANZANILLA CEDRON\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 2007.78
   },
   {
     "code": "5762",
     "name": "LA VIRGINIA TE X 25 SAQ \"TILO\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 2792.78
   },
   {
     "code": "10109",
     "name": "LA VIRGINIA TE X 50 SAQ \"CLASICO\"",
-    "category": "Yerbas",
+    "category": "Despensa",
     "price": 1650.32
   },
   {
@@ -14972,7 +14972,7 @@
   {
     "code": "241",
     "name": "PAPEL HIG. CALIPSO 1 X 60 MTS (48)",
-    "category": "Papelería",
+    "category": "Perfumería",
     "price": 448.32
   },
   {
@@ -14990,55 +14990,55 @@
   {
     "code": "3801",
     "name": "VERITAS JABON DE GLICERINA BEBE SIN PERFUME X 120 G (36)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1044.47
   },
   {
     "code": "3804",
     "name": "VERITAS JABON DE GLICERINA LAVANDA X 120 G (36)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1044.47
   },
   {
     "code": "3807",
     "name": "VERITAS JABON DE GLICERINA MENTA Y EUCALIPTO X 120 G (36)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1044.47
   },
   {
     "code": "3806",
     "name": "VERITAS JABON DE GLICERINA NECTAR DE FRUTAS X 120 G (36)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1044.47
   },
   {
     "code": "3805",
     "name": "VERITAS JABON DE GLICERINA SIN PERFUME X 120 G (36)",
-    "category": "Higiene",
+    "category": "Detergentes",
     "price": 1044.47
   },
   {
     "code": "3800",
     "name": "VERITAS TALCO EN POLVO X 120 GRS \" CELESTE\" (24)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1953.67
   },
   {
     "code": "10076",
     "name": "VERITAS TALCO EN POLVO X 120 GRS \"ROSA\" (24)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 1953.67
   },
   {
     "code": "1493",
     "name": "VERITAS TALCO EN POLVO X 180 GRS \" CELESTE GRANDE\" (24)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2408.26
   },
   {
     "code": "1494",
     "name": "VERITAS TALCO EN POLVO X 180 GRS \" ROSA GRANDE\" (24)",
-    "category": "Higiene",
+    "category": "Perfumería",
     "price": 2408.26
   },
   {
@@ -15062,7 +15062,7 @@
   {
     "code": "NEW_446",
     "name": "CNY COMBO FERRERO",
-    "category": "Varios",
+    "category": "Chocolates",
     "price": 0.0
   },
   {
@@ -15290,7 +15290,7 @@
   {
     "code": "4301",
     "name": "CNV VANISH QUITAMANCHA WHITE X 120 GRS \"POLVO\"",
-    "category": "Detergentes",
+    "category": "Despensa",
     "price": 1504.07
   },
   {
@@ -15308,7 +15308,7 @@
   {
     "code": "4301",
     "name": "CNV VANISH QUITAMANCHAS ROSA X 120 GRS \"POLVO\"",
-    "category": "Detergentes",
+    "category": "Despensa",
     "price": 1503.95
   },
   {
@@ -15548,7 +15548,7 @@
   {
     "code": "NEW_467",
     "name": "ANTOJITOS ALFACHURRO (22) SIN TACC",
-    "category": "Alfajores",
+    "category": "Snacks",
     "price": 1583.73
   },
   {
@@ -15566,7 +15566,7 @@
   {
     "code": "NEW_469",
     "name": "ANTOJITOS BOMBA DUBAI PISTACHO X 12 SIN TACC",
-    "category": "Alfajores",
+    "category": "Snacks",
     "price": 17235.98
   },
   {
