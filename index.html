@@ -1515,15 +1515,13 @@ function processCSVRows(rows) {
     const name = r[nameIdx] ? r[nameIdx].trim() : "";
     if (!code || !name) continue;
     
-    let cat = "";
-    if (catIdx !== -1 && r[catIdx]) {
+    let cat = window.codeToCat[code] || "";
+    if (!cat && catIdx !== -1 && r[catIdx]) {
       cat = r[catIdx].trim();
     }
-    
     if (!cat || cat.toLowerCase() === "none" || cat.toLowerCase() === "null") {
-      cat = window.codeToCat[code] || "Ferretería y Varios";
+      cat = "Varios";
     }
-    
     cat = normalizeCategory(cat);
     
     // Parse formatting: handles both US (11,424.78) and ES/AR (11.424,78)
